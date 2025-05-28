@@ -1,4 +1,3 @@
-// src/styles/theme.js
 const theme = {
     colors: {
       primary: ' #01257D',     // Deep Blue

@@ -1,6 +1,6 @@
 // src/pages/HomePage/HomePageElements.js
 import styled from 'styled-components';
-import heroBg from '../../assets/images/hero-bg.jpg';
+import heroBg from '../../assets/images/hero-bg.png';
 
 export const HeroSection = styled.section`
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${heroBg});
@@ -144,53 +144,6 @@ export const ProductSection = styled.section`
   }
 `;
 
-export const ProductGrid = styled.div`
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
-  margin-top: 24px;
-
-  @media (max-width: 900px) { grid-template-columns: 1fr 1fr; }
-  @media (max-width: 600px) { grid-template-columns: 1fr; }
-`;
-
-export const ProductCard = styled.div`
-  background: #fff;
-  border-radius: 14px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  transition: box-shadow 0.22s, transform 0.22s;
-
-  &:hover {
-    box-shadow: 0 8px 32px rgba(0,0,0,0.13);
-    transform: translateY(-6px) scale(1.03);
-  }
-`;
-
-export const ProductImage = styled.img`
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  border-bottom: 1px solid #eee;
-`;
-
-export const ProductTitle = styled.h3`
-  font-size: 1.2rem;
-  color: ${({ theme }) => theme.colors.primary};
-  font-family: ${({ theme }) => theme.fonts.heading};
-  margin: 18px 0 4px 0;
-`;
-
-export const ProductDescription = styled.p`
-  font-size: 1rem;
-  color: ${({ theme }) => theme.colors.text};
-  margin: 0 18px 18px 18px;
-  flex-grow: 1;
-`;
-
 /* --- WHY CHOOSE US SECTION --- */
 export const WhyChooseSection = styled.section`
   background: #fff;
@@ -255,3 +208,104 @@ export const WhyText = styled.p`
   line-height: 1.6;
 `;
 
+// Add these to src/pages/HomePage/HomePageElements.js
+
+export const ProductCardActions = styled.div`
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+`;
+
+export const ViewDetailsBtn = styled.button`
+  background: ${({ theme }) => theme.colors.primary};
+  color: white;
+  border: none;
+  border-radius: ${({ theme }) => theme.borderRadius.small};
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  flex: 1;
+  
+  &:hover {
+    background: ${({ theme }) => theme.colors.secondary};
+  }
+`;
+
+export const ViewMoreBtn = styled.button`
+  background: linear-gradient(135deg, ${({ theme }) => theme.colors.primary}, ${({ theme }) => theme.colors.secondary});
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  }
+`;
+
+// Update the existing ProductGrid for better layout
+export const ProductGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 24px;
+
+  @media (max-width: 900px) { 
+    grid-template-columns: 1fr 1fr; 
+  }
+  @media (max-width: 600px) { 
+    grid-template-columns: 1fr; 
+  }
+`;
+
+// Update ProductCard for better styling
+export const ProductCard = styled.div`
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.22s, transform 0.22s;
+  border: 1px solid transparent;
+
+  &:hover {
+    box-shadow: 0 8px 32px rgba(0,0,0,0.13);
+    transform: translateY(-6px);
+    border-color: ${({ theme }) => theme.colors.primary};
+  }
+`;
+
+export const ProductImage = styled.img`
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+`;
+
+export const ProductTitle = styled.h3`
+  font-size: 1.3rem;
+  color: ${({ theme }) => theme.colors.primary};
+  font-family: ${({ theme }) => theme.fonts.heading};
+  margin-bottom: 8px;
+`;
+
+export const ProductDescription = styled.p`
+  font-size: 0.95rem;
+  color: ${({ theme }) => theme.colors.text};
+  line-height: 1.5;
+  margin-bottom: 10px;
+`;

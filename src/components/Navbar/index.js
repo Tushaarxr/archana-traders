@@ -13,6 +13,8 @@ import {
   DropdownMenu,
   DropdownItem,
   CenteredSearchContainer,
+  SearchSuggestions,
+  SuggestionItem,
   ChevronDownIcon
 } from './NavbarElements';
 
@@ -23,9 +25,36 @@ const Navbar = () => {
   const [scrollNav, setScrollNav] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
+  const [suggestions, setSuggestions] = useState([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const [selectedSuggestion, setSelectedSuggestion] = useState(-1);
+  
   const location = useLocation();
   const navigate = useNavigate();
   const dropdownRef = useRef();
+  const searchRef = useRef();
+  const suggestionsRef = useRef();
+
+  // Flatten all products for search
+  const getAllProducts = () => {
+    const products = [];
+    steelCatalog.forEach(category => {
+      category.subcategories.forEach(subcat => {
+        subcat.products.forEach(product => {
+          products.push({
+            name: product.name,
+            shortDesc: product.shortDesc || '',
+            url: `/products/${category.slug}/${subcat.slug}/${product.slug}`,
+            category: category.name,
+            subcategory: subcat.name
+          });
+        });
+      });
+    });
+    return products;
+  };
+
+  const allProducts = getAllProducts();
 
   // Toggle mobile menu
   const toggle = () => setIsOpen(!isOpen);
@@ -50,10 +79,73 @@ const Navbar = () => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         setDropdownOpen(false);
       }
+      if (searchRef.current && !searchRef.current.contains(event.target)) {
+        setShowSuggestions(false);
+        setSelectedSuggestion(-1);
+      }
     };
-    if (dropdownOpen) document.addEventListener('mousedown', handleClickOutside);
+    
+    document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, [dropdownOpen]);
+  }, [dropdownOpen, showSuggestions]);
+
+  // Handle search input change
+  const handleSearchChange = (e) => {
+    const value = e.target.value;
+    setSearchTerm(value);
+    
+    if (value.trim().length > 0) {
+      const filteredSuggestions = allProducts.filter(product =>
+        product.name.toLowerCase().includes(value.toLowerCase()) ||
+        product.shortDesc.toLowerCase().includes(value.toLowerCase()) ||
+        product.category.toLowerCase().includes(value.toLowerCase()) ||
+        product.subcategory.toLowerCase().includes(value.toLowerCase())
+      ).slice(0, 8); // Limit to 8 suggestions
+      
+      setSuggestions(filteredSuggestions);
+      setShowSuggestions(true);
+      setSelectedSuggestion(-1);
+    } else {
+      setSuggestions([]);
+      setShowSuggestions(false);
+      setSelectedSuggestion(-1);
+    }
+  };
+
+  // Handle keyboard navigation in suggestions
+  const handleKeyDown = (e) => {
+    if (!showSuggestions || suggestions.length === 0) return;
+
+    switch (e.key) {
+      case 'ArrowDown':
+        e.preventDefault();
+        setSelectedSuggestion(prev => 
+          prev < suggestions.length - 1 ? prev + 1 : prev
+        );
+        break;
+      case 'ArrowUp':
+        e.preventDefault();
+        setSelectedSuggestion(prev => prev > 0 ? prev - 1 : prev);
+        break;
+      case 'Enter':
+        e.preventDefault();
+        if (selectedSuggestion >= 0) {
+          navigate(suggestions[selectedSuggestion].url);
+          setSearchTerm('');
+          setShowSuggestions(false);
+          setSelectedSuggestion(-1);
+        } else {
+          handleSearch(e);
+        }
+        break;
+      case 'Escape':
+        setShowSuggestions(false);
+        setSelectedSuggestion(-1);
+        break;
+      default:
+        break;
+    }
+  };
 
   // Search submit handler
   const handleSearch = (e) => {
@@ -61,7 +153,24 @@ const Navbar = () => {
     if (searchTerm.trim()) {
       navigate(`/products?search=${encodeURIComponent(searchTerm.trim())}`);
       setSearchTerm('');
+      setShowSuggestions(false);
+      setSelectedSuggestion(-1);
       closeMenu();
+    }
+  };
+
+  // Handle suggestion click
+  const handleSuggestionClick = (suggestion) => {
+    navigate(suggestion.url);
+    setSearchTerm('');
+    setShowSuggestions(false);
+    setSelectedSuggestion(-1);
+  };
+
+  // Handle search input focus
+  const handleSearchFocus = () => {
+    if (searchTerm.trim().length > 0 && suggestions.length > 0) {
+      setShowSuggestions(true);
     }
   };
 
@@ -72,13 +181,16 @@ const Navbar = () => {
           <Logo>Archana Traders</Logo>
         </LogoContainer>
 
-        <CenteredSearchContainer onSubmit={handleSearch}>
+        <CenteredSearchContainer ref={searchRef} onSubmit={handleSearch}>
           <input
             type="text"
             placeholder="Search products..."
             value={searchTerm}
-            onChange={e => setSearchTerm(e.target.value)}
+            onChange={handleSearchChange}
+            onFocus={handleSearchFocus}
+            onKeyDown={handleKeyDown}
             aria-label="Search products"
+            autoComplete="off"
           />
           <button type="submit" aria-label="Search">
             <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -86,6 +198,25 @@ const Navbar = () => {
               <line x1="16" y1="16" x2="13.5" y2="13.5" />
             </svg>
           </button>
+          
+          {showSuggestions && suggestions.length > 0 && (
+            <SearchSuggestions ref={suggestionsRef}>
+              {suggestions.map((suggestion, index) => (
+                <SuggestionItem
+                  key={index}
+                  selected={selectedSuggestion === index}
+                  onClick={() => handleSuggestionClick(suggestion)}
+                >
+                  <div className="suggestion-main">
+                    <strong>{suggestion.name}</strong>
+                  </div>
+                  <div className="suggestion-category">
+                    {suggestion.category} → {suggestion.subcategory}
+                  </div>
+                </SuggestionItem>
+              ))}
+            </SearchSuggestions>
+          )}
         </CenteredSearchContainer>
 
         <MobileIcon onClick={toggle}>

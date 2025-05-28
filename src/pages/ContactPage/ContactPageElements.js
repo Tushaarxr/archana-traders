@@ -183,3 +183,25 @@ export const MapContainer = styled.div`
   overflow: hidden;
   height: 250px;
 `;
+
+
+// Add to your ContactPageElements.js
+export const FormStatus = styled.div`
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 500;
+  
+  &.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+  }
+  
+  &.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+  }
+`;
