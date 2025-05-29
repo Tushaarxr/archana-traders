@@ -21,17 +21,17 @@ export const steelCatalog = [
     description: 'High-strength Thermo-Mechanically Treated steel bars for reinforced concrete structures with superior bendability and weldability.',
     subcategories: [
       {
-        slug: 'primary-branded-tmt-bar',
-        name: 'Primary Branded TMT Bar',
-        description: 'Premium grade TMT bars from leading manufacturers offering superior ductility and earthquake resistance.',
+        slug: 'raipur-tmt-bar',
+        name: 'Raipur TMT Bar',
+        description: 'Quality TMT bars manufactured in Raipur steel plants, known for consistency and reliability.',
         image: tmtBarsImg,
         products: [
           {
-            slug: 'panther-fe500d-tmt',
-            name: 'Panther Fe500D TMT',
+            slug: 'premium-tmt-bar-fe500',
+            name: 'Premium TMT Bar Fe500',
             image: tmtBarsImg,
-            shortDesc: 'Premium quality TMT bars with superior strength and durability.',
-            description: 'Panther TMT Bars are manufactured using advanced technology. They provide superior earthquake resistance with their unique dual-strength core and outer surface. These bars exhibit higher strength, better ductility, and excellent bendability, making them ideal for all construction needs.',
+            shortDesc: 'High-quality Fe500 TMT bars with consistent strength and durability.',
+            description: 'Premium TMT Bars are manufactured using advanced technology ensuring uniform strength distribution. These bars offer excellent earthquake resistance with optimal strength and ductility, making them ideal for residential and commercial construction projects.',
             dimensions: [
               { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
               { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
@@ -41,33 +41,26 @@ export const steelCatalog = [
               { size: '25mm', weight: '3.858 kg/m', price: 'Price on Request' },
             ],
             specifications: [
-              { property: 'Grade', value: 'Fe 500D' },
+              { property: 'Grade', value: 'Fe 500' },
               { property: 'Yield Strength', value: '≥ 500 MPa' },
-              { property: 'Ultimate Tensile Strength', value: '≥ 565 MPa' },
-              { property: 'Elongation', value: '≥ 16%' },
+              { property: 'Ultimate Tensile Strength', value: '≥ 545 MPa' },
+              { property: 'Elongation', value: '≥ 14.5%' },
               { property: 'Bend Test', value: 'No cracking' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
-            benefits: [
-              'Superior earthquake resistance',
-              'Higher ductility and bendability',
-              'Uniform strength throughout the bar',
-              'Better bonding with concrete',
-              'Rust-resistant properties'
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
             ]
           },
           {
-            slug: 'neosteel-fe500d-tmt',
-            name: 'Neosteel Fe500D TMT',
+            slug: 'standard-tmt-bar-fe500',
+            name: 'Standard TMT Bar Fe500',
             image: tmtBarsImg,
-            shortDesc: 'Premium quality TMT bars with superior strength and bendability.',
-            description: 'Neosteel TMT Bars are manufactured using the latest technology. They provide superior earthquake resistance with their unique dual-strength core and outer surface. These bars exhibit higher strength, better ductility, and excellent bendability, making them ideal for all construction needs.',
+            shortDesc: 'Reliable Fe500 TMT bars for construction applications.',
+            description: 'Standard TMT bars are engineered for exceptional performance in construction applications. These bars provide excellent strength, ductility, and corrosion resistance.',
             dimensions: [
               { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
               { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
@@ -77,33 +70,150 @@ export const steelCatalog = [
               { size: '25mm', weight: '3.858 kg/m', price: 'Price on Request' },
             ],
             specifications: [
-              { property: 'Grade', value: 'Fe 500D' },
+              { property: 'Grade', value: 'Fe 500' },
               { property: 'Yield Strength', value: '≥ 500 MPa' },
-              { property: 'Ultimate Tensile Strength', value: '≥ 565 MPa' },
-              { property: 'Elongation', value: '≥ 16%' },
+              { property: 'Ultimate Tensile Strength', value: '≥ 545 MPa' },
+              { property: 'Elongation', value: '≥ 14.5%' },
               { property: 'Bend Test', value: 'No cracking' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
-            benefits: [
-              'Superior earthquake resistance',
-              'Higher ductility and bendability',
-              'Uniform strength throughout the bar',
-              'Better bonding with concrete',
-              'Rust-resistant properties'
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
             ]
           },
           {
-            slug: 'premium-fe550d-tmt',
-            name: 'Premium Fe550D TMT',
+            slug: 'commercial-tmt-bar',
+            name: 'Commercial TMT Bar',
             image: tmtBarsImg,
-            shortDesc: 'High-grade TMT bars manufactured with stringent quality control.',
-            description: 'Premium TMT Bars are manufactured with stringent quality control and adherence to national standards. These bars feature a uniform purity level and chemical composition, offering consistency across batches. These TMT bars are known for their durability and reliable performance in all types of construction projects.',
+            shortDesc: 'Cost-effective TMT bars for general construction needs.',
+            description: 'Commercial TMT bars are manufactured with precision and quality control to ensure optimal performance in all construction projects. These bars offer excellent strength and durability.',
+            dimensions: [
+              { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
+              { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
+              { size: '12mm', weight: '0.888 kg/m', price: 'Price on Request' },
+              { size: '16mm', weight: '1.580 kg/m', price: 'Price on Request' },
+              { size: '20mm', weight: '2.469 kg/m', price: 'Price on Request' },
+              { size: '25mm', weight: '3.858 kg/m', price: 'Price on Request' },
+            ],
+            specifications: [
+              { property: 'Grade', value: 'Fe 500' },
+              { property: 'Yield Strength', value: '≥ 500 MPa' },
+              { property: 'Ultimate Tensile Strength', value: '≥ 545 MPa' },
+              { property: 'Elongation', value: '≥ 14.5%' },
+              { property: 'Bend Test', value: 'No cracking' }
+            ],
+            terms: [
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
+          },
+          {
+            slug: 'construction-grade-tmt',
+            name: 'Construction Grade TMT',
+            image: tmtBarsImg,
+            shortDesc: 'Heavy-duty TMT bars for major construction projects.',
+            description: 'Construction Grade TMT bars provide excellent strength and durability for various construction applications. Manufactured with advanced technology for consistent quality.',
+            dimensions: [
+              { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
+              { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
+              { size: '12mm', weight: '0.888 kg/m', price: 'Price on Request' },
+              { size: '16mm', weight: '1.580 kg/m', price: 'Price on Request' },
+              { size: '20mm', weight: '2.469 kg/m', price: 'Price on Request' },
+              { size: '25mm', weight: '3.858 kg/m', price: 'Price on Request' },
+            ],
+            specifications: [
+              { property: 'Grade', value: 'Fe 500' },
+              { property: 'Yield Strength', value: '≥ 500 MPa' },
+              { property: 'Ultimate Tensile Strength', value: '≥ 545 MPa' },
+              { property: 'Elongation', value: '≥ 14.5%' },
+              { property: 'Bend Test', value: 'No cracking' }
+            ],
+            terms: [
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
+          }
+        ]
+      },
+      {
+        slug: 'raigarh-tmt-bar',
+        name: 'Raigarh TMT Bar',
+        description: 'Superior quality TMT bars from Raigarh steel plants for construction excellence.',
+        image: tmtBarsImg,
+        products: [
+          {
+            slug: 'premium-tmt-raigarh',
+            name: 'Premium TMT Raigarh',
+            image: tmtBarsImg,
+            shortDesc: 'High-performance TMT bars for structural applications.',
+            description: 'Premium TMT bars from Raigarh are engineered for superior performance in construction projects, offering excellent strength and durability.',
+            dimensions: [
+              { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
+              { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
+              { size: '12mm', weight: '0.888 kg/m', price: 'Price on Request' },
+              { size: '16mm', weight: '1.580 kg/m', price: 'Price on Request' },
+              { size: '20mm', weight: '2.469 kg/m', price: 'Price on Request' },
+              { size: '25mm', weight: '3.858 kg/m', price: 'Price on Request' },
+            ],
+            specifications: [
+              { property: 'Grade', value: 'Fe 500' },
+              { property: 'Yield Strength', value: '≥ 500 MPa' },
+              { property: 'Ultimate Tensile Strength', value: '≥ 545 MPa' },
+              { property: 'Elongation', value: '≥ 14.5%' },
+              { property: 'Bend Test', value: 'No cracking' }
+            ],
+            terms: [
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
+          },
+          {
+            slug: 'thermex-tmt-fe500',
+            name: 'Thermex TMT Fe500',
+            image: tmtBarsImg,
+            shortDesc: 'Premium Thermex Fe500 TMT bars for superior construction.',
+            description: 'Thermex Fe500 TMT bars are manufactured with advanced technology to provide excellent strength and durability for all construction needs.',
+            dimensions: [
+              { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
+              { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
+              { size: '12mm', weight: '0.888 kg/m', price: 'Price on Request' },
+              { size: '16mm', weight: '1.580 kg/m', price: 'Price on Request' },
+              { size: '20mm', weight: '2.469 kg/m', price: 'Price on Request' },
+              { size: '25mm', weight: '3.858 kg/m', price: 'Price on Request' },
+            ],
+            specifications: [
+              { property: 'Grade', value: 'Fe 500' },
+              { property: 'Yield Strength', value: '≥ 500 MPa' },
+              { property: 'Ultimate Tensile Strength', value: '≥ 545 MPa' },
+              { property: 'Elongation', value: '≥ 14.5%' },
+              { property: 'Bend Test', value: 'No cracking' }
+            ],
+            terms: [
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
+          },
+          {
+            slug: 'raigarh-fe550d-tmt',
+            name: 'Raigarh Fe550D TMT',
+            image: tmtBarsImg,
+            shortDesc: 'High-grade Fe550D TMT bars for heavy construction.',
+            description: 'Raigarh Fe550D TMT bars offer superior strength and ductility for demanding construction projects. Ideal for high-rise buildings and major infrastructure.',
             dimensions: [
               { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
               { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
@@ -121,347 +231,12 @@ export const steelCatalog = [
               { property: 'Bend Test', value: 'No cracking' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
-          },
-          {
-            slug: 'steel-king-tmt',
-            name: 'Steel King TMT',
-            image: tmtBarsImg,
-            shortDesc: 'High-quality TMT bars for reliable construction projects.',
-            description: 'Steel King TMT bars are manufactured with precision and quality control, ensuring consistent performance across all construction applications. These bars provide excellent strength and durability for residential and commercial projects.',
-            dimensions: [
-              { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
-              { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
-              { size: '12mm', weight: '0.888 kg/m', price: 'Price on Request' },
-              { size: '16mm', weight: '1.580 kg/m', price: 'Price on Request' },
-              { size: '20mm', weight: '2.469 kg/m', price: 'Price on Request' },
-              { size: '25mm', weight: '3.858 kg/m', price: 'Price on Request' },
-            ],
-            specifications: [
-              { property: 'Grade', value: 'Fe 500D' },
-              { property: 'Yield Strength', value: '≥ 500 MPa' },
-              { property: 'Ultimate Tensile Strength', value: '≥ 565 MPa' },
-              { property: 'Elongation', value: '≥ 16%' },
-              { property: 'Bend Test', value: 'No cracking' }
-            ],
-            terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
-          },
-          {
-            slug: 'premium-500d-tmt',
-            name: 'Premium 500D TMT',
-            image: tmtBarsImg,
-            shortDesc: 'Premium TMT bars with excellent structural properties.',
-            description: 'Premium TMT bars are known for their superior quality and consistent performance. Manufactured using advanced technology, these bars offer excellent bendability and weldability for all construction needs.',
-            dimensions: [
-              { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
-              { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
-              { size: '12mm', weight: '0.888 kg/m', price: 'Price on Request' },
-              { size: '16mm', weight: '1.580 kg/m', price: 'Price on Request' },
-              { size: '20mm', weight: '2.469 kg/m', price: 'Price on Request' },
-              { size: '25mm', weight: '3.858 kg/m', price: 'Price on Request' },
-            ],
-            specifications: [
-              { property: 'Grade', value: 'Fe 500D' },
-              { property: 'Yield Strength', value: '≥ 500 MPa' },
-              { property: 'Ultimate Tensile Strength', value: '≥ 565 MPa' },
-              { property: 'Elongation', value: '≥ 16%' },
-              { property: 'Bend Test', value: 'No cracking' }
-            ],
-            terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
-          },
-          {
-            slug: 'titan-premium-tmt',
-            name: 'TITAN Premium TMT',
-            image: tmtBarsImg,
-            shortDesc: 'Strong and reliable TMT bars for construction excellence.',
-            description: 'TITAN TMT bars are engineered for superior performance in construction applications. These bars offer excellent strength, ductility, and corrosion resistance for long-lasting structures.',
-            dimensions: [
-              { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
-              { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
-              { size: '12mm', weight: '0.888 kg/m', price: 'Price on Request' },
-              { size: '16mm', weight: '1.580 kg/m', price: 'Price on Request' },
-              { size: '20mm', weight: '2.469 kg/m', price: 'Price on Request' },
-              { size: '25mm', weight: '3.858 kg/m', price: 'Price on Request' },
-            ],
-            specifications: [
-              { property: 'Grade', value: 'Fe 500D' },
-              { property: 'Yield Strength', value: '≥ 500 MPa' },
-              { property: 'Ultimate Tensile Strength', value: '≥ 565 MPa' },
-              { property: 'Elongation', value: '≥ 16%' },
-              { property: 'Bend Test', value: 'No cracking' }
-            ],
-            terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
-          },
-          {
-            slug: 'tiger-premium-tmt',
-            name: 'Tiger Premium TMT',
-            image: tmtBarsImg,
-            shortDesc: 'Powerful TMT bars for heavy-duty construction applications.',
-            description: 'Tiger TMT bars are designed for demanding construction projects requiring high strength and reliability. These bars provide excellent performance in both residential and commercial applications.',
-            dimensions: [
-              { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
-              { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
-              { size: '12mm', weight: '0.888 kg/m', price: 'Price on Request' },
-              { size: '16mm', weight: '1.580 kg/m', price: 'Price on Request' },
-              { size: '20mm', weight: '2.469 kg/m', price: 'Price on Request' },
-              { size: '25mm', weight: '3.858 kg/m', price: 'Price on Request' },
-            ],
-            specifications: [
-              { property: 'Grade', value: 'Fe 500D' },
-              { property: 'Yield Strength', value: '≥ 500 MPa' },
-              { property: 'Ultimate Tensile Strength', value: '≥ 565 MPa' },
-              { property: 'Elongation', value: '≥ 16%' },
-              { property: 'Bend Test', value: 'No cracking' }
-            ],
-            terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
-          },
-          {
-            slug: 'premium-grade-tmt',
-            name: 'Premium Grade TMT',
-            image: tmtBarsImg,
-            shortDesc: 'Quality TMT bars for dependable construction solutions.',
-            description: 'Premium Grade TMT bars are manufactured with strict quality standards to ensure consistent performance. These bars offer excellent strength and durability for various construction applications.',
-            dimensions: [
-              { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
-              { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
-              { size: '12mm', weight: '0.888 kg/m', price: 'Price on Request' },
-              { size: '16mm', weight: '1.580 kg/m', price: 'Price on Request' },
-              { size: '20mm', weight: '2.469 kg/m', price: 'Price on Request' },
-              { size: '25mm', weight: '3.858 kg/m', price: 'Price on Request' },
-            ],
-            specifications: [
-              { property: 'Grade', value: 'Fe 500D' },
-              { property: 'Yield Strength', value: '≥ 500 MPa' },
-              { property: 'Ultimate Tensile Strength', value: '≥ 565 MPa' },
-              { property: 'Elongation', value: '≥ 16%' },
-              { property: 'Bend Test', value: 'No cracking' }
-            ],
-            terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
-          }
-        ]
-      },
-      {
-        slug: 'raipur-tmt-bar',
-        name: 'Raipur TMT Bar',
-        description: 'Quality TMT bars manufactured in Raipur steel plants, known for consistency and reliability.',
-        image: tmtBarsImg,
-        products: [
-          {
-            slug: 'zeecon-tmt-bar',
-            name: 'Zeecon TMT Bar',
-            image: tmtBarsImg,
-            shortDesc: 'Reliable Zeecon TMT bars with consistent quality and strength.',
-            description: 'Zeecon TMT Bars are manufactured using advanced technology ensuring uniform strength distribution. These bars offer excellent earthquake resistance with optimal strength and ductility, making them ideal for residential and commercial construction projects.',
-            dimensions: [
-              { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
-              { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
-              { size: '12mm', weight: '0.888 kg/m', price: 'Price on Request' },
-              { size: '16mm', weight: '1.580 kg/m', price: 'Price on Request' },
-              { size: '20mm', weight: '2.469 kg/m', price: 'Price on Request' },
-              { size: '25mm', weight: '3.858 kg/m', price: 'Price on Request' },
-            ],
-            specifications: [
-              { property: 'Grade', value: 'Fe 500' },
-              { property: 'Yield Strength', value: '≥ 500 MPa' },
-              { property: 'Ultimate Tensile Strength', value: '≥ 545 MPa' },
-              { property: 'Elongation', value: '≥ 14.5%' },
-              { property: 'Bend Test', value: 'No cracking' }
-            ],
-            terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
-          },
-          {
-            slug: 'hr-platinum-tmt',
-            name: 'H R Platinum TMT',
-            image: tmtBarsImg,
-            shortDesc: 'Premium H R Platinum TMT bars for superior construction quality.',
-            description: 'H R Platinum TMT bars are engineered for exceptional performance in construction applications. These bars provide excellent strength, ductility, and corrosion resistance.',
-            dimensions: [
-              { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
-              { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
-              { size: '12mm', weight: '0.888 kg/m', price: 'Price on Request' },
-              { size: '16mm', weight: '1.580 kg/m', price: 'Price on Request' },
-              { size: '20mm', weight: '2.469 kg/m', price: 'Price on Request' },
-              { size: '25mm', weight: '3.858 kg/m', price: 'Price on Request' },
-            ],
-            specifications: [
-              { property: 'Grade', value: 'Fe 500' },
-              { property: 'Yield Strength', value: '≥ 500 MPa' },
-              { property: 'Ultimate Tensile Strength', value: '≥ 545 MPa' },
-              { property: 'Elongation', value: '≥ 14.5%' },
-              { property: 'Bend Test', value: 'No cracking' }
-            ],
-            terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
-          },
-          {
-            slug: 'lotus-tmt',
-            name: 'Lotus TMT',
-            image: tmtBarsImg,
-            shortDesc: 'High-grade Lotus TMT bars for reliable structural applications.',
-            description: 'Lotus TMT bars are manufactured with precision and quality control to ensure optimal performance in all construction projects. These bars offer excellent strength and durability.',
-            dimensions: [
-              { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
-              { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
-              { size: '12mm', weight: '0.888 kg/m', price: 'Price on Request' },
-              { size: '16mm', weight: '1.580 kg/m', price: 'Price on Request' },
-              { size: '20mm', weight: '2.469 kg/m', price: 'Price on Request' },
-              { size: '25mm', weight: '3.858 kg/m', price: 'Price on Request' },
-            ],
-            specifications: [
-              { property: 'Grade', value: 'Fe 500' },
-              { property: 'Yield Strength', value: '≥ 500 MPa' },
-              { property: 'Ultimate Tensile Strength', value: '≥ 545 MPa' },
-              { property: 'Elongation', value: '≥ 14.5%' },
-              { property: 'Bend Test', value: 'No cracking' }
-            ],
-            terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
-          },
-          {
-            slug: 'nakoda-tmt',
-            name: 'NAKODA TMT',
-            image: tmtBarsImg,
-            shortDesc: 'Premium NAKODA TMT bars for reliable construction projects.',
-            description: 'NAKODA TMT bars are manufactured with precision and quality control to ensure excellent performance in all construction applications.',
-            dimensions: [
-              { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
-              { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
-              { size: '12mm', weight: '0.888 kg/m', price: 'Price on Request' },
-              { size: '16mm', weight: '1.580 kg/m', price: 'Price on Request' },
-              { size: '20mm', weight: '2.469 kg/m', price: 'Price on Request' },
-              { size: '25mm', weight: '3.858 kg/m', price: 'Price on Request' },
-            ],
-            specifications: [
-              { property: 'Grade', value: 'Fe 500' },
-              { property: 'Yield Strength', value: '≥ 500 MPa' },
-              { property: 'Ultimate Tensile Strength', value: '≥ 545 MPa' },
-              { property: 'Elongation', value: '≥ 14.5%' },
-              { property: 'Bend Test', value: 'No cracking' }
-            ],
-            terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
-          }
-        ]
-      },
-      {
-        slug: 'raigarh-tmt-bar',
-        name: 'Raigarh TMT Bar',
-        description: 'Superior quality TMT bars from Raigarh steel plants for construction excellence.',
-        image: tmtBarsImg,
-        products: [
-          {
-            slug: 'msp-tmt',
-            name: 'MSP TMT',
-            image: tmtBarsImg,
-            shortDesc: 'High-performance MSP TMT bars for structural applications.',
-            description: 'MSP TMT bars are engineered for superior performance in construction projects, offering excellent strength and durability.',
-            dimensions: [
-              { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
-              { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
-              { size: '12mm', weight: '0.888 kg/m', price: 'Price on Request' },
-              { size: '16mm', weight: '1.580 kg/m', price: 'Price on Request' },
-              { size: '20mm', weight: '2.469 kg/m', price: 'Price on Request' },
-              { size: '25mm', weight: '3.858 kg/m', price: 'Price on Request' },
-            ],
-            specifications: [
-              { property: 'Grade', value: 'Fe 500' },
-              { property: 'Yield Strength', value: '≥ 500 MPa' },
-              { property: 'Ultimate Tensile Strength', value: '≥ 545 MPa' },
-              { property: 'Elongation', value: '≥ 14.5%' },
-              { property: 'Bend Test', value: 'No cracking' }
-            ],
-            terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
-          },
-          {
-            slug: 'shree-om-thermex-fe500',
-            name: 'Shree OM Thermex Fe500',
-            image: tmtBarsImg,
-            shortDesc: 'Premium Shree OM Thermex Fe500 TMT bars for superior construction.',
-            description: 'Shree OM Thermex Fe500 TMT bars are manufactured with advanced technology to provide excellent strength and durability for all construction needs.',
-            dimensions: [
-              { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
-              { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
-              { size: '12mm', weight: '0.888 kg/m', price: 'Price on Request' },
-              { size: '16mm', weight: '1.580 kg/m', price: 'Price on Request' },
-              { size: '20mm', weight: '2.469 kg/m', price: 'Price on Request' },
-              { size: '25mm', weight: '3.858 kg/m', price: 'Price on Request' },
-            ],
-            specifications: [
-              { property: 'Grade', value: 'Fe 500' },
-              { property: 'Yield Strength', value: '≥ 500 MPa' },
-              { property: 'Ultimate Tensile Strength', value: '≥ 545 MPa' },
-              { property: 'Elongation', value: '≥ 14.5%' },
-              { property: 'Bend Test', value: 'No cracking' }
-            ],
-            terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           }
         ]
       }
@@ -500,12 +275,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'industrial-grade-plate',
@@ -528,12 +303,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'commercial-grade-plate',
@@ -556,12 +331,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           }
         ]
       },
@@ -590,12 +365,12 @@ export const steelCatalog = [
               { property: 'Tensile Strength', value: '410-540 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'industrial-plate',
@@ -617,12 +392,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           }
         ]
       },
@@ -652,12 +427,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'mild-steel-sheet',
@@ -679,12 +454,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 230 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           }
         ]
       }
@@ -725,12 +500,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 215 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'ms-pipe-raigarh',
@@ -755,12 +530,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 215 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           }
         ]
       },
@@ -793,12 +568,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 215 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           }
         ]
       },
@@ -831,12 +606,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 240 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           }
         ]
       }
@@ -876,12 +651,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'ms-angle-raipur',
@@ -905,12 +680,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'ms-angle-raigarh',
@@ -934,12 +709,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           }
         ]
       },
@@ -971,12 +746,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'ms-channel-raipur',
@@ -1000,12 +775,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'ms-channel-raigarh',
@@ -1029,12 +804,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           }
         ]
       },
@@ -1066,12 +841,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'ms-beam-raipur',
@@ -1095,12 +870,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'ms-beam-raigarh',
@@ -1124,12 +899,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           }
         ]
       }
@@ -1169,12 +944,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'ms-round-bar',
@@ -1198,12 +973,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           }
         ]
       }
@@ -1240,12 +1015,12 @@ export const steelCatalog = [
               { property: 'Elongation', value: 'Min. 10%' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'wire-rod',
@@ -1266,12 +1041,12 @@ export const steelCatalog = [
               { property: 'Elongation', value: 'Min. 20%' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'hb-wire',
@@ -1292,12 +1067,12 @@ export const steelCatalog = [
               { property: 'Elongation', value: 'Min. 4%' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           }
         ]
       }
@@ -1333,13 +1108,13 @@ export const steelCatalog = [
               { property: 'Profile', value: 'Corrugated/Trapezoidal' },
               { property: 'Color', value: 'Natural/Pre-painted' }
             ],
-           terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+            terms: [
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'industrial-roofing-sheet',
@@ -1359,13 +1134,13 @@ export const steelCatalog = [
               { property: 'Profile', value: 'Corrugated/Trapezoidal' },
               { property: 'Color', value: 'Natural/Pre-painted' }
             ],
-           terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+            terms: [
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'commercial-roofing-sheet',
@@ -1385,13 +1160,13 @@ export const steelCatalog = [
               { property: 'Profile', value: 'Corrugated/Trapezoidal' },
               { property: 'Color', value: 'Natural/Pre-painted' }
             ],
-           terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+            terms: [
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           }
         ]
       },
@@ -1419,12 +1194,12 @@ export const steelCatalog = [
               { property: 'Reflectivity', value: 'High' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'color-coated-roofing-sheet',
@@ -1443,13 +1218,13 @@ export const steelCatalog = [
               { property: 'Colors', value: 'Multiple Options' },
               { property: 'Profile', value: 'Corrugated/Trapezoidal' }
             ],
-           terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+            terms: [
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'corrugated-roofing-sheet',
@@ -1469,12 +1244,12 @@ export const steelCatalog = [
               { property: 'Surface', value: 'Zinc Coated' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           }
         ]
       }
@@ -1512,12 +1287,12 @@ export const steelCatalog = [
               { property: 'Load Capacity', value: 'As per IS standards' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'scaffolding-pipe-42mm',
@@ -1538,13 +1313,13 @@ export const steelCatalog = [
               { property: 'Standard', value: 'IS 1239 Part 1' },
               { property: 'Load Capacity', value: 'As per IS standards' }
             ],
-           terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+            terms: [
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           }
         ]
       },
@@ -1573,12 +1348,12 @@ export const steelCatalog = [
               { property: 'Standard', value: 'EN 74/BS 1139' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'scaffolding-boards',
@@ -1592,19 +1367,19 @@ export const steelCatalog = [
               { length: '2.5m', width: '230mm', thickness: '38mm', price: 'Price on Request' },
               { length: '2.0m', width: '230mm', thickness: '38mm', price: 'Price on Request' },
             ],
-                        specifications: [
+            specifications: [
               { property: 'Material', value: 'Seasoned Timber/Steel' },
               { property: 'Grade', value: 'Construction Grade' },
               { property: 'Load Capacity', value: '270kg/m²' },
               { property: 'Standard', value: 'BS 2482' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'base-plates',
@@ -1624,12 +1399,12 @@ export const steelCatalog = [
               { property: 'Standard', value: 'EN 74' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           }
         ]
       }
@@ -1664,12 +1439,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'ms-flat-25x3',
@@ -1688,12 +1463,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'ms-flat-40x5',
@@ -1712,12 +1487,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'ms-flat-50x6',
@@ -1736,12 +1511,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           },
           {
             slug: 'ms-flat-75x6',
@@ -1759,13 +1534,13 @@ export const steelCatalog = [
               { property: 'Tensile Strength', value: '410-540 N/mm²' },
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
-           terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+            terms: [
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           }
         ]
       },
@@ -1793,12 +1568,12 @@ export const steelCatalog = [
               { property: 'Tolerance', value: 'As per IS 1730' }
             ],
             terms: [
-  'Prices are subject to change based on market conditions without prior notice.',
-  'GST and other applicable taxes are extra.',
-  'Loading charges will be borne by the buyer.',
-  'Advance payment is required before dispatch of goods.',
-  'All sales are subject to our standard terms and conditions.'
-],
+              'Prices are subject to change based on market conditions without prior notice.',
+              'GST and other applicable taxes are extra.',
+              'Loading charges will be borne by the buyer.',
+              'Advance payment is required before dispatch of goods.',
+              'All sales are subject to our standard terms and conditions.'
+            ]
           }
         ]
       }
