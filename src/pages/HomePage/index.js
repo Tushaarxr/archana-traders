@@ -71,7 +71,7 @@ const HomePage = () => {
 
   const getWhatsAppLink = (product = '') => {
     const message = product
-      ? `Hello, I'm interested in ${product} from Achana Traders. Can you provide more information?`
+      ? `Hello, I'm interested in ${product} from archana Traders. Can you provide more information?`
       : 'Hello, I am interested in your steel products. Can you provide more information?';
     return `https://wa.me/919827143858?text=${encodeURIComponent(message)}`;
   };
@@ -80,7 +80,7 @@ const HomePage = () => {
     <>
       <SEO
         title="Home"
-        description="Achana Traders - Trusted supplier of high-quality steel products for construction and industry."
+        description="archana Traders - Trusted supplier of high-quality steel products for construction and industry."
       />
 
       {/* HERO SECTION */}
@@ -88,7 +88,7 @@ const HomePage = () => {
         <HeroContent>
           <HeroH1>Forging Tomorrow's Foundations with Unyielding Steel Excellence</HeroH1>
           <HeroP>
-            Achana Traders is a leading trader and supplier of TMT bars, steel plates, pipes, beams, and more. We deliver quality and reliability for every project.
+            Archana Traders is a leading trader and supplier of TMT bars, steel plates, pipes, beams, and more. We deliver quality and reliability for every project.
           </HeroP>
           <HeroBtnWrapper>
             <WhatsAppButton
@@ -110,18 +110,18 @@ const HomePage = () => {
       {/* ABOUT US SECTION */}
       <IntroSection>
         <div className="container">
-          <h2>About Achana Traders</h2>
+          <h2>About Archana Traders</h2>
           <AboutGrid>
-            <AboutImage src={officeImg} alt="Achana Traders Office" />
+            <AboutImage src={officeImg} alt="archana Traders Office" />
             <AboutText>
               <p>
-                Achana Traders has served the steel industry for over 15 years, overcoming challenges and establishing a reputation for reliability and trust. We are a leading stockist and supplier of TMT bars, beams, rods, plates, pipes, channels, and more, sourcing only from trusted manufacturers like SAIL, JSW, and Jindal.
+                Archana Traders has served the steel industry for over 27 years, overcoming challenges and establishing a reputation for reliability and trust. We are a leading stockist and supplier of TMT bars, beams, rods, plates, pipes, channels, and more.
               </p>
               <p>
                 Our extensive network with construction, industrial, and infrastructure companies ensures we deliver the right products, on time, across India. We never compromise on quality and pride ourselves on responsive customer service and efficient supply chain management.
               </p>
               <p>
-                Headquartered in Raipur, Achana Traders is committed to supporting your projects with the best steel solutions.
+                Headquartered in Raigarh, archana Traders is committed to supporting your projects with the best steel solutions.
               </p>
             </AboutText>
           </AboutGrid>

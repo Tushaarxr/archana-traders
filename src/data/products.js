@@ -23,15 +23,15 @@ export const steelCatalog = [
       {
         slug: 'primary-branded-tmt-bar',
         name: 'Primary Branded TMT Bar',
-        description: 'Premium grade TMT bars from leading national brands offering superior ductility and earthquake resistance.',
+        description: 'Premium grade TMT bars from leading manufacturers offering superior ductility and earthquake resistance.',
         image: tmtBarsImg,
         products: [
           {
-            slug: 'jindal-panther-jspl',
-            name: 'Jindal Panther JSPL',
+            slug: 'panther-fe500d-tmt',
+            name: 'Panther Fe500D TMT',
             image: tmtBarsImg,
-            shortDesc: 'Premium quality Jindal Panther TMT bars with superior strength and durability.',
-            description: 'Jindal Panther TMT Bars are manufactured using advanced technology. They provide superior earthquake resistance with their unique dual-strength core and outer surface. These bars exhibit higher strength, better ductility, and excellent bendability, making them ideal for all construction needs.',
+            shortDesc: 'Premium quality TMT bars with superior strength and durability.',
+            description: 'Panther TMT Bars are manufactured using advanced technology. They provide superior earthquake resistance with their unique dual-strength core and outer surface. These bars exhibit higher strength, better ductility, and excellent bendability, making them ideal for all construction needs.',
             dimensions: [
               { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
               { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
@@ -48,12 +48,12 @@ export const steelCatalog = [
               { property: 'Bend Test', value: 'No cracking' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ],
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
             benefits: [
               'Superior earthquake resistance',
               'Higher ductility and bendability',
@@ -63,11 +63,11 @@ export const steelCatalog = [
             ]
           },
           {
-            slug: 'jsw-neosteel-tmt',
-            name: 'JSW Neosteel TMT',
+            slug: 'neosteel-fe500d-tmt',
+            name: 'Neosteel Fe500D TMT',
             image: tmtBarsImg,
-            shortDesc: 'Premium quality JSW Neosteel TMT bars with superior strength and bendability.',
-            description: 'JSW Neosteel TMT Bars are manufactured using the latest German technology. They provide superior earthquake resistance with their unique dual-strength core and outer surface. These bars exhibit higher strength, better ductility, and excellent bendability, making them ideal for all construction needs.',
+            shortDesc: 'Premium quality TMT bars with superior strength and bendability.',
+            description: 'Neosteel TMT Bars are manufactured using the latest technology. They provide superior earthquake resistance with their unique dual-strength core and outer surface. These bars exhibit higher strength, better ductility, and excellent bendability, making them ideal for all construction needs.',
             dimensions: [
               { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
               { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
@@ -84,12 +84,12 @@ export const steelCatalog = [
               { property: 'Bend Test', value: 'No cracking' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ],
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
             benefits: [
               'Superior earthquake resistance',
               'Higher ductility and bendability',
@@ -99,11 +99,11 @@ export const steelCatalog = [
             ]
           },
           {
-            slug: 'sail-tmt',
-            name: 'SAIL TMT',
+            slug: 'premium-fe550d-tmt',
+            name: 'Premium Fe550D TMT',
             image: tmtBarsImg,
-            shortDesc: 'Reliable SAIL TMT bars manufactured by Steel Authority of India Limited.',
-            description: 'SAIL TMT Bars are manufactured by the Steel Authority of India Limited, ensuring stringent quality control and adherence to national standards. These bars feature a uniform purity level and chemical composition, offering consistency across batches. SAIL TMT bars are known for their durability and reliable performance in all types of construction projects.',
+            shortDesc: 'High-grade TMT bars manufactured with stringent quality control.',
+            description: 'Premium TMT Bars are manufactured with stringent quality control and adherence to national standards. These bars feature a uniform purity level and chemical composition, offering consistency across batches. These TMT bars are known for their durability and reliable performance in all types of construction projects.',
             dimensions: [
               { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
               { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
@@ -121,19 +121,19 @@ export const steelCatalog = [
               { property: 'Bend Test', value: 'No cracking' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
-            slug: 'rungta-steel-tmt',
-            name: 'Rungta Steel TMT',
+            slug: 'steel-king-tmt',
+            name: 'Steel King TMT',
             image: tmtBarsImg,
-            shortDesc: 'High-quality Rungta Steel TMT bars for reliable construction projects.',
-            description: 'Rungta Steel TMT bars are manufactured with precision and quality control, ensuring consistent performance across all construction applications. These bars provide excellent strength and durability for residential and commercial projects.',
+            shortDesc: 'High-quality TMT bars for reliable construction projects.',
+            description: 'Steel King TMT bars are manufactured with precision and quality control, ensuring consistent performance across all construction applications. These bars provide excellent strength and durability for residential and commercial projects.',
             dimensions: [
               { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
               { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
@@ -150,19 +150,19 @@ export const steelCatalog = [
               { property: 'Bend Test', value: 'No cracking' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
-            slug: 'balmukund-tmt',
-            name: 'Balmukund TMT',
+            slug: 'premium-500d-tmt',
+            name: 'Premium 500D TMT',
             image: tmtBarsImg,
-            shortDesc: 'Premium Balmukund TMT bars with excellent structural properties.',
-            description: 'Balmukund TMT bars are known for their superior quality and consistent performance. Manufactured using advanced technology, these bars offer excellent bendability and weldability for all construction needs.',
+            shortDesc: 'Premium TMT bars with excellent structural properties.',
+            description: 'Premium TMT bars are known for their superior quality and consistent performance. Manufactured using advanced technology, these bars offer excellent bendability and weldability for all construction needs.',
             dimensions: [
               { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
               { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
@@ -179,19 +179,19 @@ export const steelCatalog = [
               { property: 'Bend Test', value: 'No cracking' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
-            slug: 'sml-titan-tmt',
-            name: 'SML TITAN TMT',
+            slug: 'titan-premium-tmt',
+            name: 'TITAN Premium TMT',
             image: tmtBarsImg,
-            shortDesc: 'Strong and reliable SML TITAN TMT bars for construction excellence.',
-            description: 'SML TITAN TMT bars are engineered for superior performance in construction applications. These bars offer excellent strength, ductility, and corrosion resistance for long-lasting structures.',
+            shortDesc: 'Strong and reliable TMT bars for construction excellence.',
+            description: 'TITAN TMT bars are engineered for superior performance in construction applications. These bars offer excellent strength, ductility, and corrosion resistance for long-lasting structures.',
             dimensions: [
               { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
               { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
@@ -208,19 +208,19 @@ export const steelCatalog = [
               { property: 'Bend Test', value: 'No cracking' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
-            slug: 'sel-tiger',
-            name: 'SEL Tiger',
+            slug: 'tiger-premium-tmt',
+            name: 'Tiger Premium TMT',
             image: tmtBarsImg,
-            shortDesc: 'Powerful SEL Tiger TMT bars for heavy-duty construction applications.',
-            description: 'SEL Tiger TMT bars are designed for demanding construction projects requiring high strength and reliability. These bars provide excellent performance in both residential and commercial applications.',
+            shortDesc: 'Powerful TMT bars for heavy-duty construction applications.',
+            description: 'Tiger TMT bars are designed for demanding construction projects requiring high strength and reliability. These bars provide excellent performance in both residential and commercial applications.',
             dimensions: [
               { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
               { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
@@ -237,19 +237,19 @@ export const steelCatalog = [
               { property: 'Bend Test', value: 'No cracking' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
-            slug: 'rathi-tmt',
-            name: 'RATHI TMT',
+            slug: 'premium-grade-tmt',
+            name: 'Premium Grade TMT',
             image: tmtBarsImg,
-            shortDesc: 'Quality RATHI TMT bars for dependable construction solutions.',
-            description: 'RATHI TMT bars are manufactured with strict quality standards to ensure consistent performance. These bars offer excellent strength and durability for various construction applications.',
+            shortDesc: 'Quality TMT bars for dependable construction solutions.',
+            description: 'Premium Grade TMT bars are manufactured with strict quality standards to ensure consistent performance. These bars offer excellent strength and durability for various construction applications.',
             dimensions: [
               { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
               { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
@@ -266,19 +266,19 @@ export const steelCatalog = [
               { property: 'Bend Test', value: 'No cracking' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           }
         ]
       },
       {
-        slug: 'durgapur-tmt-bar',
-        name: 'Durgapur TMT Bar',
-        description: 'Quality TMT bars manufactured in Durgapur steel plants, known for consistency and reliability.',
+        slug: 'raipur-tmt-bar',
+        name: 'Raipur TMT Bar',
+        description: 'Quality TMT bars manufactured in Raipur steel plants, known for consistency and reliability.',
         image: tmtBarsImg,
         products: [
           {
@@ -303,12 +303,12 @@ export const steelCatalog = [
               { property: 'Bend Test', value: 'No cracking' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
             slug: 'hr-platinum-tmt',
@@ -332,12 +332,12 @@ export const steelCatalog = [
               { property: 'Bend Test', value: 'No cracking' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
             slug: 'lotus-tmt',
@@ -361,52 +361,13 @@ export const steelCatalog = [
               { property: 'Bend Test', value: 'No cracking' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
-          // Add remaining Durgapur products: ZARA TMT, Vicon TMT, Star TMT, AIC OM TMT, VSP TMT, SOVA TMT
-          {
-            slug: 'zara-tmt',
-            name: 'ZARA TMT',
-            image: tmtBarsImg,
-            shortDesc: 'Quality ZARA TMT bars for construction excellence.',
-            description: 'ZARA TMT bars provide excellent strength and durability for various construction applications. Manufactured with advanced technology for consistent quality.',
-            dimensions: [
-              { size: '8mm', weight: '0.395 kg/m', price: 'Price on Request' },
-              { size: '10mm', weight: '0.617 kg/m', price: 'Price on Request' },
-              { size: '12mm', weight: '0.888 kg/m', price: 'Price on Request' },
-              { size: '16mm', weight: '1.580 kg/m', price: 'Price on Request' },
-              { size: '20mm', weight: '2.469 kg/m', price: 'Price on Request' },
-              { size: '25mm', weight: '3.858 kg/m', price: 'Price on Request' },
-            ],
-            specifications: [
-              { property: 'Grade', value: 'Fe 500' },
-              { property: 'Yield Strength', value: '≥ 500 MPa' },
-              { property: 'Ultimate Tensile Strength', value: '≥ 545 MPa' },
-              { property: 'Elongation', value: '≥ 14.5%' },
-              { property: 'Bend Test', value: 'No cracking' }
-            ],
-            terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
-          }
-          // Continue with other Durgapur products...
-        ]
-      },
-      {
-        slug: 'raipur-tmt-bar',
-        name: 'Raipur TMT Bar',
-        description: 'High-quality TMT bars from Raipur steel mills, ensuring superior performance.',
-        image: tmtBarsImg,
-        products: [
           {
             slug: 'nakoda-tmt',
             name: 'NAKODA TMT',
@@ -429,14 +390,13 @@ export const steelCatalog = [
               { property: 'Bend Test', value: 'No cracking' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           }
-          // Add remaining Raipur products: GKTMT, NANDAN TMT, SPEED TMT, ISWAR TMT
         ]
       },
       {
@@ -467,22 +427,13 @@ export const steelCatalog = [
               { property: 'Bend Test', value: 'No cracking' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
-          }
-          // Add remaining Raigarh products: BS TMX TMT, NR TMT Fe550, SURAJ TMT, Shisti TMT
-        ]
-      },
-      {
-        slug: 'jalna-tmt-bar',
-        name: 'Jalna TMT Bar',
-        description: 'Quality TMT bars from Jalna steel mills with excellent structural properties.',
-        image: tmtBarsImg,
-        products: [
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
+          },
           {
             slug: 'shree-om-thermex-fe500',
             name: 'Shree OM Thermex Fe500',
@@ -505,14 +456,13 @@ export const steelCatalog = [
               { property: 'Bend Test', value: 'No cracking' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           }
-          // Add remaining Jalna products: Kalika TMT, Rajpuri TMT
         ]
       }
     ]
@@ -526,15 +476,15 @@ export const steelCatalog = [
       {
         slug: 'branded-steel-plates',
         name: 'Branded Steel Plates',
-        description: 'Premium quality steel plates from leading manufacturers like SAIL, Jindal, and JSW.',
+        description: 'Premium quality steel plates from leading manufacturers.',
         image: steelSheetsImg,
         products: [
           {
-            slug: 'sail-plate',
-            name: 'SAIL Plate',
+            slug: 'premium-steel-plate',
+            name: 'Premium Steel Plate',
             image: steelSheetsImg,
-            shortDesc: 'Durable SAIL steel plates for various industrial applications.',
-            description: 'SAIL Plates are manufactured by Steel Authority of India Limited, ensuring high quality and adherence to strict industrial standards. These plates are widely used in construction, manufacturing, and other industries.',
+            shortDesc: 'Durable premium steel plates for various industrial applications.',
+            description: 'Premium Steel Plates are manufactured with high quality standards, ensuring adherence to strict industrial specifications. These plates are widely used in construction, manufacturing, and other industries.',
             dimensions: [
               { size: '5mm', dimension: '1250x2500mm', weight: '49.1 kg/sheet', price: 'Price on Request' },
               { size: '6mm', dimension: '1250x2500mm', weight: '58.9 kg/sheet', price: 'Price on Request' },
@@ -550,19 +500,19 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
-            slug: 'jindal-plate',
-            name: 'Jindal Plate',
+            slug: 'industrial-grade-plate',
+            name: 'Industrial Grade Plate',
             image: steelSheetsImg,
-            shortDesc: 'Premium Jindal steel plates for industrial and construction use.',
-            description: 'Jindal steel plates are manufactured with precision and quality control, ensuring consistent performance across all applications.',
+            shortDesc: 'Premium industrial grade steel plates for construction use.',
+            description: 'Industrial Grade steel plates are manufactured with precision and quality control, ensuring consistent performance across all applications.',
             dimensions: [
               { size: '5mm', dimension: '1250x2500mm', weight: '49.1 kg/sheet', price: 'Price on Request' },
               { size: '6mm', dimension: '1250x2500mm', weight: '58.9 kg/sheet', price: 'Price on Request' },
@@ -578,19 +528,19 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
-            slug: 'jsw-plate',
-            name: 'JSW Plate',
+            slug: 'commercial-grade-plate',
+            name: 'Commercial Grade Plate',
             image: steelSheetsImg,
-            shortDesc: 'High-quality JSW steel plates for demanding applications.',
-            description: 'JSW steel plates are engineered for superior performance in construction and industrial applications.',
+            shortDesc: 'High-quality commercial grade steel plates for demanding applications.',
+            description: 'Commercial Grade steel plates are engineered for superior performance in construction and industrial applications.',
             dimensions: [
               { size: '5mm', dimension: '1250x2500mm', weight: '49.1 kg/sheet', price: 'Price on Request' },
               { size: '6mm', dimension: '1250x2500mm', weight: '58.9 kg/sheet', price: 'Price on Request' },
@@ -606,12 +556,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           }
         ]
       },
@@ -640,12 +590,12 @@ export const steelCatalog = [
               { property: 'Tensile Strength', value: '410-540 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
             slug: 'industrial-plate',
@@ -667,38 +617,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
-          },
-          {
-            slug: 'liners-plate',
-            name: 'Liners Plate',
-            image: steelSheetsImg,
-            shortDesc: 'Specialized liner plates for industrial equipment protection.',
-            description: 'Liner plates are designed to protect equipment and structures from wear and corrosion in industrial environments.',
-            dimensions: [
-              { size: '6mm', dimension: '1250x2500mm', weight: '58.9 kg/sheet', price: 'Price on Request' },
-              { size: '8mm', dimension: '1250x2500mm', weight: '78.5 kg/sheet', price: 'Price on Request' },
-              { size: '10mm', dimension: '1250x2500mm', weight: '98.1 kg/sheet', price: 'Price on Request' },
-              { size: '12mm', dimension: '1250x2500mm', weight: '117.8 kg/sheet', price: 'Price on Request' },
-            ],
-            specifications: [
-              { property: 'Material', value: 'Mild Steel (IS 2062)' },
-              { property: 'Surface', value: 'Black/Galvanized' },
-              { property: 'Tensile Strength', value: '410-540 N/mm²' },
-              { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
-            ],
-            terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           }
         ]
       },
@@ -728,12 +652,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
             slug: 'mild-steel-sheet',
@@ -755,18 +679,17 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 230 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           }
         ]
       }
     ]
   },
-  // Continue with existing Steel Pipes...
   {
     slug: 'steel-pipes',
     name: 'Steel Pipes',
@@ -780,11 +703,11 @@ export const steelCatalog = [
         image: steelPipesImg,
         products: [
           {
-            slug: 'ms-pipe-durgapur',
-            name: 'MS Pipe Durgapur',
+            slug: 'ms-pipe-raipur',
+            name: 'MS Pipe Raipur',
             image: steelPipesImg,
-            shortDesc: 'Quality MS pipes from Durgapur steel mills.',
-            description: 'MS Pipes from Durgapur are manufactured using high-grade raw materials and advanced technology. These pipes feature excellent weldability, corrosion resistance, and uniform wall thickness.',
+            shortDesc: 'High-quality MS pipes from Raipur steel mills.',
+            description: 'MS Pipes from Raipur are manufactured with precision and quality control to ensure excellent performance in construction applications.',
             dimensions: [
               { size: '1/2 inch', thickness: '2.0mm', length: '6m', price: 'Price on Request' },
               { size: '3/4 inch', thickness: '2.0mm', length: '6m', price: 'Price on Request' },
@@ -802,12 +725,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 215 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days.',
-              'Minimum order quantity may apply for non-standard sizes.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
             slug: 'ms-pipe-raigarh',
@@ -832,42 +755,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 215 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days.',
-              'Minimum order quantity may apply for non-standard sizes.'
-            ]
-          },
-          {
-            slug: 'ms-pipe-raipur',
-            name: 'MS Pipe Raipur',
-            image: steelPipesImg,
-            shortDesc: 'High-quality MS pipes from Raipur steel mills.',
-            description: 'MS Pipes from Raipur are manufactured with precision and quality control to ensure excellent performance in construction applications.',
-            dimensions: [
-              { size: '1/2 inch', thickness: '2.0mm', length: '6m', price: 'Price on Request' },
-              { size: '3/4 inch', thickness: '2.0mm', length: '6m', price: 'Price on Request' },
-              { size: '1 inch', thickness: '2.9mm', length: '6m', price: 'Price on Request' },
-              { size: '1.5 inch', thickness: '3.2mm', length: '6m', price: 'Price on Request' },
-              { size: '2 inch', thickness: '3.6mm', length: '6m', price: 'Price on Request' },
-              { size: '3 inch', thickness: '4.0mm', length: '6m', price: 'Price on Request' },
-              { size: '4 inch', thickness: '4.5mm', length: '6m', price: 'Price on Request' },
-            ],
-            specifications: [
-              { property: 'Material', value: 'Mild Steel (IS 1239)' },
-              { property: 'Ends', value: 'Plain/Beveled/Threaded' },
-              { property: 'Surface', value: 'Black/Galvanized' },
-              { property: 'Tensile Strength', value: '320-510 N/mm²' },
-              { property: 'Yield Strength', value: 'Min. 215 N/mm²' }
-            ],
-            terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days.',
-              'Minimum order quantity may apply for non-standard sizes.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           }
         ]
       },
@@ -878,11 +771,11 @@ export const steelCatalog = [
         image: steelPipesImg,
         products: [
           {
-            slug: 'tata-ms-pipes',
-            name: 'Tata MS Pipes',
+            slug: 'premium-ms-pipes',
+            name: 'Premium MS Pipes',
             image: steelPipesImg,
-            shortDesc: 'Premium quality Tata MS Pipes with ISI marking.',
-            description: 'Tata MS Pipes are manufactured using high-grade raw materials and advanced technology. These pipes feature excellent weldability, corrosion resistance, and uniform wall thickness. Ideal for water, gas, and oil transportation, as well as structural applications, these pipes meet all Indian and international quality standards.',
+            shortDesc: 'Premium quality MS Pipes with ISI marking.',
+            description: 'Premium MS Pipes are manufactured using high-grade raw materials and advanced technology. These pipes feature excellent weldability, corrosion resistance, and uniform wall thickness. Ideal for water, gas, and oil transportation, as well as structural applications.',
             dimensions: [
               { size: '1/2 inch', thickness: '2.0mm', length: '6m', price: 'Price on Request' },
               { size: '3/4 inch', thickness: '2.0mm', length: '6m', price: 'Price on Request' },
@@ -900,16 +793,15 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 215 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days.',
-              'Minimum order quantity may apply for non-standard sizes.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           }
         ]
       },
-      // Keep existing seamless pipes subcategory
       {
         slug: 'seamless-pipes',
         name: 'Seamless Pipes',
@@ -917,11 +809,11 @@ export const steelCatalog = [
         image: steelPipesImg,
         products: [
           {
-            slug: 'ismt-seamless-pipes',
-            name: 'ISMT Seamless Pipes',
+            slug: 'premium-seamless-pipes',
+            name: 'Premium Seamless Pipes',
             image: steelPipesImg,
-            shortDesc: 'High-quality ISMT Seamless Pipes for critical industrial applications.',
-            description: 'ISMT Seamless Pipes are manufactured through advanced processes ensuring uniform wall thickness and superior strength. These pipes are ideal for high-pressure applications in oil & gas, petrochemical, and power generation industries. The absence of welds eliminates potential weak points, making them perfect for critical applications requiring reliability and safety.',
+            shortDesc: 'High-quality seamless pipes for critical industrial applications.',
+            description: 'Premium Seamless Pipes are manufactured through advanced processes ensuring uniform wall thickness and superior strength. These pipes are ideal for high-pressure applications in oil & gas, petrochemical, and power generation industries.',
             dimensions: [
               { size: '1/2 inch', thickness: '2.0mm', length: '6m', price: 'Price on Request' },
               { size: '3/4 inch', thickness: '2.0mm', length: '6m', price: 'Price on Request' },
@@ -939,18 +831,17 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 240 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 5-7 business days for standard sizes.',
-              'Custom specifications available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           }
         ]
       }
     ]
   },
-  // Continue with existing Structural Steel and add new categories...
   {
     slug: 'structural-steel',
     name: 'Structural Steel',
@@ -964,11 +855,11 @@ export const steelCatalog = [
         image: anglesImg,
         products: [
           {
-            slug: 'sail-angles',
-            name: 'SAIL Angles',
+            slug: 'premium-steel-angles',
+            name: 'Premium Steel Angles',
             image: anglesImg,
-            shortDesc: 'Durable SAIL steel angles for structural applications.',
-            description: 'SAIL Angles are manufactured by Steel Authority of India Limited, ensuring high quality and adherence to strict industrial standards. These L-shaped structural members are widely used in construction, manufacturing, and other industries for support structures, frames, and braces. SAIL Angles provide excellent strength-to-weight ratio and are easy to fabricate and weld.',
+            shortDesc: 'Durable premium steel angles for structural applications.',
+            description: 'Premium Steel Angles are manufactured with high quality standards, ensuring adherence to strict industrial specifications. These L-shaped structural members are widely used in construction, manufacturing, and other industries for support structures, frames, and braces.',
             dimensions: [
               { size: '25x25x3mm', weight: '1.1 kg/m', length: '6m', price: 'Price on Request' },
               { size: '25x25x5mm', weight: '1.8 kg/m', length: '6m', price: 'Price on Request' },
@@ -985,41 +876,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-4 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
-          },
-          {
-            slug: 'ms-angle-durgapur',
-            name: 'MS Angle Durgapur',
-            image: anglesImg,
-            shortDesc: 'Quality MS angles from Durgapur steel mills.',
-            description: 'MS Angles from Durgapur are manufactured with precision and quality control, ensuring excellent performance in construction and structural applications.',
-            dimensions: [
-              { size: '25x25x3mm', weight: '1.1 kg/m', length: '6m', price: 'Price on Request' },
-              { size: '25x25x5mm', weight: '1.8 kg/m', length: '6m', price: 'Price on Request' },
-              { size: '40x40x5mm', weight: '3.0 kg/m', length: '6m', price: 'Price on Request' },
-              { size: '50x50x6mm', weight: '4.5 kg/m', length: '6m', price: 'Price on Request' },
-              { size: '65x65x6mm', weight: '5.9 kg/m', length: '6m', price: 'Price on Request' },
-              { size: '75x75x6mm', weight: '6.9 kg/m', length: '6m', price: 'Price on Request' },
-            ],
-            specifications: [
-              { property: 'Material', value: 'Mild Steel (IS 2062/IS 808)' },
-              { property: 'Type', value: 'Equal/Unequal' },
-              { property: 'Surface', value: 'Black/Galvanized' },
-              { property: 'Tensile Strength', value: '410-540 N/mm²' },
-              { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
-            ],
-            terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-4 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
             slug: 'ms-angle-raipur',
@@ -1043,12 +905,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-4 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
             slug: 'ms-angle-raigarh',
@@ -1072,12 +934,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-4 business days for standard sizes.',
-              'Custom sizes available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           }
         ]
       },
@@ -1088,11 +950,11 @@ export const steelCatalog = [
         image: channelsImg,
         products: [
           {
-            slug: 'sail-channel',
-            name: 'SAIL Channel',
+            slug: 'premium-steel-channel',
+            name: 'Premium Steel Channel',
             image: channelsImg,
-            shortDesc: 'Premium SAIL steel channels for construction and industrial use.',
-            description: 'SAIL Channels are high-quality C-shaped structural steel members used extensively in construction, manufacturing, and infrastructure projects. These channels offer excellent load-bearing capacity and are ideal for beams, frames, and support structures.',
+            shortDesc: 'Premium steel channels for construction and industrial use.',
+            description: 'Premium Steel Channels are high-quality C-shaped structural steel members used extensively in construction, manufacturing, and infrastructure projects. These channels offer excellent load-bearing capacity.',
             dimensions: [
               { size: 'ISMC 75', weight: '7.14 kg/m', height: '75mm', width: '40mm', price: 'Price on Request' },
               { size: 'ISMC 100', weight: '9.56 kg/m', height: '100mm', width: '50mm', price: 'Price on Request' },
@@ -1109,19 +971,19 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days for standard sizes.',
-              'Custom lengths available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
-            slug: 'ms-channel-durgapur',
-            name: 'MS Channel Durgapur',
+            slug: 'ms-channel-raipur',
+            name: 'MS Channel Raipur',
             image: channelsImg,
-            shortDesc: 'Quality MS channels from Durgapur steel mills.',
-            description: 'MS Channels from Durgapur are manufactured with precision to provide excellent load-bearing capacity for construction and industrial applications.',
+            shortDesc: 'Quality MS channels from Raipur steel mills.',
+            description: 'MS Channels from Raipur are manufactured with precision to provide excellent load-bearing capacity for construction and industrial applications.',
             dimensions: [
               { size: 'ISMC 75', weight: '7.14 kg/m', height: '75mm', width: '40mm', price: 'Price on Request' },
               { size: 'ISMC 100', weight: '9.56 kg/m', height: '100mm', width: '50mm', price: 'Price on Request' },
@@ -1138,14 +1000,42 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days for standard sizes.',
-              'Custom lengths available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
+          },
+          {
+            slug: 'ms-channel-raigarh',
+            name: 'MS Channel Raigarh',
+            image: channelsImg,
+            shortDesc: 'High-quality MS channels from Raigarh steel mills.',
+            description: 'MS Channels from Raigarh are manufactured with advanced technology to provide excellent load-bearing capacity for construction applications.',
+            dimensions: [
+              { size: 'ISMC 75', weight: '7.14 kg/m', height: '75mm', width: '40mm', price: 'Price on Request' },
+              { size: 'ISMC 100', weight: '9.56 kg/m', height: '100mm', width: '50mm', price: 'Price on Request' },
+              { size: 'ISMC 125', weight: '13.1 kg/m', height: '125mm', width: '65mm', price: 'Price on Request' },
+              { size: 'ISMC 150', weight: '17.0 kg/m', height: '150mm', width: '75mm', price: 'Price on Request' },
+              { size: 'ISMC 200', weight: '24.1 kg/m', height: '200mm', width: '75mm', price: 'Price on Request' },
+              { size: 'ISMC 250', weight: '32.3 kg/m', height: '250mm', width: '82mm', price: 'Price on Request' },
+            ],
+            specifications: [
+              { property: 'Material', value: 'Mild Steel (IS 2062/IS 808)' },
+              { property: 'Type', value: 'ISMC/ISLC' },
+              { property: 'Surface', value: 'Black' },
+              { property: 'Tensile Strength', value: '410-540 N/mm²' },
+              { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
+            ],
+            terms: [
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           }
-          // Add MS Channel Raipur and MS Channel Raigarh similarly
         ]
       },
       {
@@ -1155,11 +1045,11 @@ export const steelCatalog = [
         image: beamsImg,
         products: [
           {
-            slug: 'sail-beam',
-            name: 'SAIL Beam',
+            slug: 'premium-steel-beam',
+            name: 'Premium Steel Beam',
             image: beamsImg,
-            shortDesc: 'High-strength SAIL Beams for commercial and industrial construction.',
-            description: 'SAIL Beams are premium I-shaped and H-shaped structural steel members designed for heavy-duty applications. These beams offer superior load-bearing capacity and are used in commercial buildings, industrial structures, bridges, and other infrastructure projects.',
+            shortDesc: 'High-strength premium beams for commercial and industrial construction.',
+            description: 'Premium Steel Beams are I-shaped and H-shaped structural steel members designed for heavy-duty applications. These beams offer superior load-bearing capacity and are used in commercial buildings, industrial structures, bridges, and other infrastructure projects.',
             dimensions: [
               { size: 'ISMB 100', weight: '11.5 kg/m', height: '100mm', width: '75mm', price: 'Price on Request' },
               { size: 'ISMB 150', weight: '16.8 kg/m', height: '150mm', width: '80mm', price: 'Price on Request' },
@@ -1176,19 +1066,19 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 5-7 business days for standard sizes.',
-              'Cutting and fabrication services available on request.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
-            slug: 'ms-beam-durgapur',
-            name: 'MS Beam Durgapur',
+            slug: 'ms-beam-raipur',
+            name: 'MS Beam Raipur',
             image: beamsImg,
-            shortDesc: 'Quality MS beams from Durgapur steel mills.',
-            description: 'MS Beams from Durgapur are manufactured with precision to provide excellent structural support for construction and industrial applications.',
+            shortDesc: 'Quality MS beams from Raipur steel mills.',
+            description: 'MS Beams from Raipur are manufactured with precision to provide excellent structural support for construction and industrial applications.',
             dimensions: [
               { size: 'ISMB 100', weight: '11.5 kg/m', height: '100mm', width: '75mm', price: 'Price on Request' },
               { size: 'ISMB 150', weight: '16.8 kg/m', height: '150mm', width: '80mm', price: 'Price on Request' },
@@ -1205,19 +1095,46 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 5-7 business days for standard sizes.',
-              'Cutting and fabrication services available on request.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
+          },
+          {
+            slug: 'ms-beam-raigarh',
+            name: 'MS Beam Raigarh',
+            image: beamsImg,
+            shortDesc: 'High-quality MS beams from Raigarh steel mills.',
+            description: 'MS Beams from Raigarh are manufactured with advanced technology to provide excellent structural support for heavy-duty construction applications.',
+            dimensions: [
+              { size: 'ISMB 100', weight: '11.5 kg/m', height: '100mm', width: '75mm', price: 'Price on Request' },
+              { size: 'ISMB 150', weight: '16.8 kg/m', height: '150mm', width: '80mm', price: 'Price on Request' },
+              { size: 'ISMB 200', weight: '25.4 kg/m', height: '200mm', width: '100mm', price: 'Price on Request' },
+              { size: 'ISMB 250', weight: '37.3 kg/m', height: '250mm', width: '125mm', price: 'Price on Request' },
+              { size: 'ISMB 300', weight: '44.2 kg/m', height: '300mm', width: '140mm', price: 'Price on Request' },
+              { size: 'ISMB 400', weight: '61.6 kg/m', height: '400mm', width: '140mm', price: 'Price on Request' },
+            ],
+            specifications: [
+              { property: 'Material', value: 'Mild Steel (IS 2062/IS 808)' },
+              { property: 'Type', value: 'ISMB/ISHB/UB/UC' },
+              { property: 'Surface', value: 'Black' },
+              { property: 'Tensile Strength', value: '410-540 N/mm²' },
+              { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
+            ],
+            terms: [
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           }
-          // Add MS Beam Raipur and MS Beam Raigarh similarly
         ]
       }
     ]
   },
-  // Add new categories: MS Bar, MS Wire, Roofing Sheet, Scaffolding Materials, MS Flat Patti
   {
     slug: 'mild-steel-bar',
     name: 'Mild Steel Bar',
@@ -1252,12 +1169,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days for standard sizes.',
-              'Custom lengths available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
             slug: 'ms-round-bar',
@@ -1281,12 +1198,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days for standard sizes.',
-              'Custom lengths available on request with additional lead time.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           }
         ]
       }
@@ -1323,12 +1240,12 @@ export const steelCatalog = [
               { property: 'Elongation', value: 'Min. 10%' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days.',
-              'Available in standard coil sizes.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
             slug: 'wire-rod',
@@ -1349,12 +1266,12 @@ export const steelCatalog = [
               { property: 'Elongation', value: 'Min. 20%' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days.',
-              'Minimum order quantities apply.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
             slug: 'hb-wire',
@@ -1375,12 +1292,12 @@ export const steelCatalog = [
               { property: 'Elongation', value: 'Min. 4%' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days.',
-              'Specialized handling required.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           }
         ]
       }
@@ -1399,11 +1316,11 @@ export const steelCatalog = [
         image: roofingSheetImg,
         products: [
           {
-            slug: 'jindal-roofing-sheet',
-            name: 'Jindal Roofing Sheet',
+            slug: 'premium-roofing-sheet',
+            name: 'Premium Roofing Sheet',
             image: roofingSheetImg,
-            shortDesc: 'Premium Jindal roofing sheets for durable construction.',
-            description: 'Jindal Roofing Sheets are manufactured with high-quality galvanized steel, providing excellent corrosion resistance and long-lasting performance for all types of roofing applications.',
+            shortDesc: 'Premium roofing sheets for durable construction.',
+            description: 'Premium Roofing Sheets are manufactured with high-quality galvanized steel, providing excellent corrosion resistance and long-lasting performance for all types of roofing applications.',
             dimensions: [
               { thickness: '0.35mm', width: '1000mm', length: '2-12m', price: 'Price on Request' },
               { thickness: '0.4mm', width: '1000mm', length: '2-12m', price: 'Price on Request' },
@@ -1416,20 +1333,20 @@ export const steelCatalog = [
               { property: 'Profile', value: 'Corrugated/Trapezoidal' },
               { property: 'Color', value: 'Natural/Pre-painted' }
             ],
-            terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days.',
-              'Custom lengths available on request.'
-            ]
+           terms: [
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
-            slug: 'jsw-roofing-sheet',
-            name: 'JSW Roofing Sheet',
+            slug: 'industrial-roofing-sheet',
+            name: 'Industrial Roofing Sheet',
             image: roofingSheetImg,
-            shortDesc: 'High-quality JSW roofing sheets for reliable performance.',
-            description: 'JSW Roofing Sheets offer excellent durability and weather resistance, making them ideal for residential and commercial roofing applications.',
+            shortDesc: 'High-quality industrial roofing sheets for reliable performance.',
+            description: 'Industrial Roofing Sheets offer excellent durability and weather resistance, making them ideal for residential and commercial roofing applications.',
             dimensions: [
               { thickness: '0.35mm', width: '1000mm', length: '2-12m', price: 'Price on Request' },
               { thickness: '0.4mm', width: '1000mm', length: '2-12m', price: 'Price on Request' },
@@ -1442,20 +1359,20 @@ export const steelCatalog = [
               { property: 'Profile', value: 'Corrugated/Trapezoidal' },
               { property: 'Color', value: 'Natural/Pre-painted' }
             ],
-            terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days.',
-              'Custom lengths available on request.'
-            ]
+           terms: [
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
-            slug: 'bhushan-roofing-sheet',
-            name: 'Bhushan Roofing Sheet',
+            slug: 'commercial-roofing-sheet',
+            name: 'Commercial Roofing Sheet',
             image: roofingSheetImg,
-            shortDesc: 'Quality Bhushan roofing sheets for construction projects.',
-            description: 'Bhushan Roofing Sheets are manufactured with precision to provide excellent weather protection and long-lasting performance.',
+            shortDesc: 'Quality commercial roofing sheets for construction projects.',
+            description: 'Commercial Roofing Sheets are manufactured with precision to provide excellent weather protection and long-lasting performance.',
             dimensions: [
               { thickness: '0.35mm', width: '1000mm', length: '2-12m', price: 'Price on Request' },
               { thickness: '0.4mm', width: '1000mm', length: '2-12m', price: 'Price on Request' },
@@ -1468,13 +1385,13 @@ export const steelCatalog = [
               { property: 'Profile', value: 'Corrugated/Trapezoidal' },
               { property: 'Color', value: 'Natural/Pre-painted' }
             ],
-            terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days.',
-              'Custom lengths available on request.'
-            ]
+           terms: [
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           }
         ]
       },
@@ -1502,12 +1419,12 @@ export const steelCatalog = [
               { property: 'Reflectivity', value: 'High' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 5-7 business days.',
-              'Premium product with extended warranty.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
             slug: 'color-coated-roofing-sheet',
@@ -1526,13 +1443,13 @@ export const steelCatalog = [
               { property: 'Colors', value: 'Multiple Options' },
               { property: 'Profile', value: 'Corrugated/Trapezoidal' }
             ],
-            terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 5-7 business days.',
-              'Color matching service available.'
-            ]
+           terms: [
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
             slug: 'corrugated-roofing-sheet',
@@ -1552,12 +1469,12 @@ export const steelCatalog = [
               { property: 'Surface', value: 'Zinc Coated' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days.',
-                            'Standard corrugated profile available.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           }
         ]
       }
@@ -1595,12 +1512,12 @@ export const steelCatalog = [
               { property: 'Load Capacity', value: 'As per IS standards' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days.',
-              'Bulk orders available with special pricing.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
             slug: 'scaffolding-pipe-42mm',
@@ -1621,13 +1538,13 @@ export const steelCatalog = [
               { property: 'Standard', value: 'IS 1239 Part 1' },
               { property: 'Load Capacity', value: 'As per IS standards' }
             ],
-            terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days.',
-              'Custom lengths available on request.'
-            ]
+           terms: [
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           }
         ]
       },
@@ -1656,12 +1573,12 @@ export const steelCatalog = [
               { property: 'Standard', value: 'EN 74/BS 1139' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Load test certificates available.',
-              'Delivery within 2-3 business days.',
-              'Bulk quantities available.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
             slug: 'scaffolding-boards',
@@ -1675,19 +1592,19 @@ export const steelCatalog = [
               { length: '2.5m', width: '230mm', thickness: '38mm', price: 'Price on Request' },
               { length: '2.0m', width: '230mm', thickness: '38mm', price: 'Price on Request' },
             ],
-            specifications: [
+                        specifications: [
               { property: 'Material', value: 'Seasoned Timber/Steel' },
               { property: 'Grade', value: 'Construction Grade' },
               { property: 'Load Capacity', value: '270kg/m²' },
               { property: 'Standard', value: 'BS 2482' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Quality certificates provided.',
-              'Delivery within 5-7 business days.',
-              'Steel and timber options available.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
             slug: 'base-plates',
@@ -1707,12 +1624,12 @@ export const steelCatalog = [
               { property: 'Standard', value: 'EN 74' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Load test certificates available.',
-              'Delivery within 3-5 business days.',
-              'Various sizes available.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           }
         ]
       }
@@ -1747,12 +1664,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days.',
-              'Custom lengths available on request.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
             slug: 'ms-flat-25x3',
@@ -1771,12 +1688,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days.',
-              'Custom lengths available on request.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
             slug: 'ms-flat-40x5',
@@ -1795,12 +1712,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days.',
-              'Custom lengths available on request.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
             slug: 'ms-flat-50x6',
@@ -1819,12 +1736,12 @@ export const steelCatalog = [
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 2-3 business days.',
-              'Custom lengths available on request.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           },
           {
             slug: 'ms-flat-75x6',
@@ -1842,13 +1759,13 @@ export const steelCatalog = [
               { property: 'Tensile Strength', value: '410-540 N/mm²' },
               { property: 'Yield Strength', value: 'Min. 250 N/mm²' }
             ],
-            terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 3-5 business days.',
-              'Custom lengths available on request.'
-            ]
+           terms: [
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           }
         ]
       },
@@ -1876,17 +1793,15 @@ export const steelCatalog = [
               { property: 'Tolerance', value: 'As per IS 1730' }
             ],
             terms: [
-              'Prices subject to change as per market conditions and without prior notice.',
-              'GST & Freight charges extra as applicable.',
-              'Material Test Certificate (MTC) provided on request.',
-              'Delivery within 5-10 business days for custom sizes.',
-              'Minimum order quantities may apply for custom sizes.',
-              'Technical drawings required for custom specifications.'
-            ]
+  'Prices are subject to change based on market conditions without prior notice.',
+  'GST and other applicable taxes are extra.',
+  'Loading charges will be borne by the buyer.',
+  'Advance payment is required before dispatch of goods.',
+  'All sales are subject to our standard terms and conditions.'
+],
           }
         ]
       }
     ]
   }
 ];
-

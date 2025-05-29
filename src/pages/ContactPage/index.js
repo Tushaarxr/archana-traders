@@ -57,8 +57,8 @@ const ContactPage = () => {
     
     // Add Web3Forms required fields with your access key
     formDataToSend.append("access_key", "7fea1f32-4675-4164-abf9-41a5971baef7");
-    formDataToSend.append("subject", "New Contact Form Submission from Achana Traders Website");
-    formDataToSend.append("from_name", "Achana Traders Website");
+    formDataToSend.append("subject", "New Contact Form Submission from archana Traders Website");
+    formDataToSend.append("from_name", "archana Traders Website");
     formDataToSend.append("replyto", formData.email);
 
     try {
@@ -120,7 +120,7 @@ const ContactPage = () => {
     <>
       <SEO
         title="Contact Us"
-        description="Get in touch with Achana Traders for inquiries about our steel products. Contact us via phone, email, or visit our location."
+        description="Get in touch with archana Traders for inquiries about our steel products. Contact us via phone, email, or visit our location."
       />
       
       <ContactContainer>
@@ -223,7 +223,7 @@ const ContactPage = () => {
               <InfoItem>
                 <InfoIcon>📍</InfoIcon>
                 <InfoText>
-                  Achana traders jute mill road beside petrol pump
+                  Kotra Rd, in front of hp gas agency, Rukmani Vihar, Raigarh, Chhattisgarh 496001
                 </InfoText>
               </InfoItem>
               
@@ -246,13 +246,13 @@ const ContactPage = () => {
               
               <MapContainer>
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000!2d73.8567!3d18.5204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDMxJzEzLjQiTiA3M8KwNTEnMjQuMSJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29923.315997290876!2d83.33808077431642!3d21.901715500000012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a2724d9d2dfa64f%3A0x47cd893548e062a7!2sArchana%20trader&#39;s!5e1!3m2!1sen!2sin!4v1748445969033!5m2!1sen!2sin" 
                   width="100%" 
                   height="250" 
                   style={{ border: 0 }} 
                   allowFullScreen="" 
                   loading="lazy"
-                  title="Achana Traders Location"
+                  title="archana Traders Location"
                 />
               </MapContainer>
             </ContactInfoContainer>

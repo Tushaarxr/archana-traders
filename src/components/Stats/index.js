@@ -43,10 +43,10 @@ const StatTitle = styled.div`
 `;
 
 const stats = [
-  { id: 1, number: 15, symbol: '+', title: 'Years of Experience' },
+  { id: 1, number: 27, symbol: '+', title: 'Years of Experience' },
   { id: 2, number: 500, symbol: '+', title: 'Satisfied Clients' },
   { id: 3, number: 10000, symbol: '+', title: 'Tons Delivered' },
-  { id: 4, number: 25, symbol: '+', title: 'Steel Products' }
+  { id: 4, number: 50, symbol: '+', title: 'Steel Products' }
 ];
 
 const Stats = () => {

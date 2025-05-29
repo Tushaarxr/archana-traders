@@ -131,8 +131,7 @@ const Footer = () => {
                   <FaMapMarkerAlt />
                 </ContactIcon>
                 <ContactText>
-                  Archana Traders, Jute Mill Road,<br />
-                  Beside Petrol Pump, Raigarh
+                  Kotra Rd, Rukmani Vihar, Raigarh, Chhattisgarh 496001
                 </ContactText>
               </ContactItem>
               <ContactItem>
@@ -180,7 +179,7 @@ const Footer = () => {
         
         <FooterBottom>
           <CopyrightText>
-            © {new Date().getFullYear()} Achana Traders. All rights reserved. | 
+            © {new Date().getFullYear()} archana Traders. All rights reserved. | 
             Designed & Developed with ❤️
           </CopyrightText>
           <BackToTopButton onClick={scrollToTop}>
