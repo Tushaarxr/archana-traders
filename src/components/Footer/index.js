@@ -53,7 +53,7 @@ const Footer = () => {
                 Archana Traders
               </FooterLogo>
               <FooterDescription>
-                Leading supplier of premium steel products for over 15 years. 
+                Leading supplier of premium steel products for over 27 years. 
                 We deliver quality, reliability, and excellence in every project 
                 across India.
               </FooterDescription>

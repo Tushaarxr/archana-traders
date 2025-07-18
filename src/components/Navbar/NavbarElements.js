@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => scrollNav ? 'white' : 'transparent'};
+  background: white; /* Always white background */
   height: 80px;
   display: flex;
   justify-content: center;
@@ -12,13 +12,11 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
-  transition: 0.8s all ease;
-  box-shadow: ${({ scrollNav, theme }) => scrollNav ? theme.shadows.small : 'none'};
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Always show shadow */
 
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
-    transition: 0.8s all ease;
-    background: white; /* Always white on mobile */
-    box-shadow: ${({ theme }) => theme.shadows.small};
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   }
 `;
 
@@ -46,14 +44,36 @@ export const LogoContainer = styled(Link)`
   z-index: 1001;
 `;
 
-export const Logo = styled.h1`
-  color: ${({ theme }) => theme.colors.primary};
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-family: ${({ theme }) => theme.fonts.heading};
+// export const Logo = styled.h1`
+//   color: ${({ theme }) => theme.colors.primary};
+//   font-size: 1.5rem;
+//   font-weight: bold;
+//   font-family: ${({ theme }) => theme.fonts.heading};
+
+//   @media screen and (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+//     font-size: 1.3rem;
+//   }
+// `;
+
+export const LogoImage = styled.img`
+  height:80px;
+  width: auto;
+  max-width: 180px;
+  object-fit: contain;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
-    font-size: 1.3rem;
+    height: 50px;
+    max-width: 150px;
+  }
+
+  @media screen and (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+    height: 60px;
+    max-width: 120px;
   }
 `;
 
@@ -151,7 +171,6 @@ export const NavLinks = styled(Link)`
     }
   }
 `;
-
 export const CenteredSearchContainer = styled.form`
   flex: 1;
   display: flex;
@@ -195,27 +214,126 @@ export const CenteredSearchContainer = styled.form`
     }
   }
 
+  /* Hide on tablet and mobile - will be replaced by toggle */
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
     display: none;
   }
 `;
 
+
+
 export const SearchSuggestions = styled.div`
   position: absolute;
   top: 100%;
   left: 0;
-  right: 60px;
+  right: 0;
   background: white;
   border-radius: 8px;
   box-shadow: 0 8px 24px rgba(0,0,0,0.15);
   z-index: 1000;
-  max-height: 400px;
+  max-height: 300px;
   overflow-y: auto;
   margin-top: 4px;
   border: 1px solid #e0e0e0;
 
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
-    display: none;
+    max-height: 250px;
+  }
+`;
+export const SearchToggleButton = styled.button`
+  display: none; /* Hidden on desktop */
+  
+  @media screen and (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    background: ${({ active, theme }) => active ? theme.colors.primary : 'transparent'};
+    border: 2px solid ${({ theme }) => theme.colors.primary};
+    color: ${({ active, theme }) => active ? 'white' : theme.colors.primary};
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: absolute;
+    right: 60px; /* Position next to mobile menu button */
+    top: 50%;
+    transform: translateY(-50%);
+
+    &:hover {
+      background: ${({ theme }) => theme.colors.primary};
+      color: white;
+      transform: translateY(-50%) scale(1.05);
+    }
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  @media screen and (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+    width: 32px;
+    height: 32px;
+    right: 55px;
+    
+    svg {
+      width: 14px;
+      height: 14px;
+    }
+  }
+`;
+export const MobileSearchContainer = styled.form`
+  display: none;
+  
+  @media screen and (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    position: absolute;
+    top: 100%;
+    left: 16px;
+    right: 16px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    z-index: 1001;
+    border: 1px solid #e0e0e0;
+
+    input {
+      padding: 10px 12px;
+      border: none;
+      border-radius: 8px 0 0 8px;
+      font-size: 0.9rem;
+      background: #f8f9fa;
+      flex: 1;
+      outline: none;
+      
+      &:focus {
+        background: white;
+      }
+    }
+
+    button {
+      padding: 10px 12px;
+      border: none;
+      background: ${({ theme }) => theme.colors.primary};
+      color: #fff;
+      border-radius: 0 8px 8px 0;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      transition: background 0.2s;
+
+      &:hover {
+        background: ${({ theme }) => theme.colors.secondary};
+      }
+      
+      svg {
+        width: 16px;
+        height: 16px;
+      }
+    }
   }
 `;
 
@@ -387,3 +505,6 @@ export const ContactInfoContainer = styled.div`
     display: none;
   }
 `;
+
+
+

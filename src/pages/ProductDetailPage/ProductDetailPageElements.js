@@ -261,3 +261,4 @@ export const RelatedProductTitle = styled.h4`
   font-family: ${({ theme }) => theme.fonts.heading};
 `;
 
+

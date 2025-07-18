@@ -41,16 +41,26 @@ export const HeroContent = styled.div`
   }
 `;
 
+
+
 export const HeroH1 = styled.h1`
-  color: #fff;
+  color: white;
   font-size: 2.7rem;
   font-weight: bold;
   margin-bottom: 1.2rem;
   font-family: ${({ theme }) => theme.fonts.heading};
   text-shadow: 0 2px 16px rgba(0,0,0,0.18);
 
-  @media (max-width: 768px) { font-size: 2.1rem; }
-  @media (max-width: 480px) { font-size: 1.5rem; }
+  @media (max-width: 768px) { 
+    font-size: 1.8rem;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 480px) { 
+    font-size: 1.7rem;
+    line-height: 1.2;
+  }
 `;
 
 export const HeroP = styled.p`
@@ -61,8 +71,9 @@ export const HeroP = styled.p`
   font-family: ${({ theme }) => theme.fonts.body};
   text-shadow: 0 1px 8px rgba(0,0,0,0.13);
 
-  @media (max-width: 768px) { font-size: 1.1rem; }
-  @media (max-width: 480px) { font-size: 1rem; }
+  @media (max-width: 768px) { 
+    display: none; /* Hide subtitle on mobile */
+  }
 `;
 
 export const HeroBtnWrapper = styled.div`
@@ -71,6 +82,25 @@ export const HeroBtnWrapper = styled.div`
   margin-top: 1rem;
   flex-wrap: wrap;
   justify-content: center;
+  
+  .whatsapp-btn {
+    @media (max-width: 768px) {
+      padding: 8px 24px !important; /* Smaller button on mobile */
+      font-size: 1rem !important;
+    }
+    
+    @media (max-width: 480px) {
+      padding: 8px 20px !important; /* Even smaller on very small screens */
+      font-size: 0.9rem !important;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    margin-top: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
 `;
 
 /* --- ABOUT SECTION --- */
@@ -282,18 +312,37 @@ export const ProductCard = styled.div`
   flex-direction: column;
   transition: box-shadow 0.22s, transform 0.22s;
   border: 1px solid transparent;
+  height: 100%; /* Ensure all cards have same height */
+  min-height: 420px; /* Set minimum height for consistency */
 
   &:hover {
     box-shadow: 0 8px 32px rgba(0,0,0,0.13);
     transform: translateY(-6px);
     border-color: ${({ theme }) => theme.colors.primary};
   }
+
+  @media (max-width: 768px) {
+    min-height: 380px;
+  }
+
+  @media (max-width: 480px) {
+    min-height: 360px;
+  }
 `;
+
 
 export const ProductImage = styled.img`
   width: 100%;
   height: 200px;
   object-fit: cover;
+  flex-shrink: 0; /* Prevent image from shrinking */
+`;
+export const ProductCardContent = styled.div`
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Take remaining space */
+  justify-content: space-between; /* Distribute content evenly */
 `;
 
 export const ProductTitle = styled.h3`
@@ -301,11 +350,23 @@ export const ProductTitle = styled.h3`
   color: ${({ theme }) => theme.colors.primary};
   font-family: ${({ theme }) => theme.fonts.heading};
   margin-bottom: 8px;
+  line-height: 1.3;
+  min-height: 2.6rem; /* Reserve space for 2 lines */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 `;
-
 export const ProductDescription = styled.p`
   font-size: 0.95rem;
   color: ${({ theme }) => theme.colors.text};
   line-height: 1.5;
   margin-bottom: 10px;
+  flex: 1; /* Take available space */
+  min-height: 4.5rem; /* Reserve space for 3 lines */
+  max-height: 4.5rem; /* Limit to 3 lines */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 `;

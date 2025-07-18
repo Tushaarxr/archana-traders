@@ -63,12 +63,21 @@ export const ContactForm = styled.form`
   border-radius: ${({ theme }) => theme.borderRadius.medium};
   box-shadow: ${({ theme }) => theme.shadows.small};
   
+  @media screen and (max-width: 768px) {
+    padding: 20px 16px;
+  }
+  
   h3 {
     font-size: 1.5rem;
     margin-bottom: ${({ theme }) => theme.spacing.lg};
     color: ${({ theme }) => theme.colors.primary};
     font-family: ${({ theme }) => theme.fonts.heading};
     text-align: center;
+    
+    @media screen and (max-width: 768px) {
+      font-size: 1.3rem;
+      margin-bottom: 16px;
+    }
   }
 `;
 
@@ -91,12 +100,18 @@ export const Input = styled.input`
   font-family: ${({ theme }) => theme.fonts.body};
   font-size: 1rem;
   
+  @media screen and (max-width: 768px) {
+    padding: 14px 12px;
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+  
   &:focus {
     outline: none;
     border-color: ${({ theme }) => theme.colors.primary};
     box-shadow: 0 0 0 2px rgba(1, 37, 125, 0.2);
   }
 `;
+
 
 export const TextArea = styled.textarea`
   width: 100%;
@@ -106,6 +121,12 @@ export const TextArea = styled.textarea`
   font-family: ${({ theme }) => theme.fonts.body};
   font-size: 1rem;
   resize: vertical;
+  
+  @media screen and (max-width: 768px) {
+    padding: 14px 12px;
+    font-size: 16px; /* Prevents zoom on iOS */
+    min-height: 120px;
+  }
   
   &:focus {
     outline: none;

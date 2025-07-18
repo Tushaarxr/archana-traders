@@ -86,7 +86,7 @@ const HomePage = () => {
       {/* HERO SECTION */}
       <HeroSection>
         <HeroContent>
-          <HeroH1>Forging Tomorrow's Foundations with Unyielding Steel Excellence</HeroH1>
+          <HeroH1>Building Stronger Futures with High-Quality TMT Bars and Iron Products</HeroH1>
           <HeroP>
             Archana Traders is a leading trader and supplier of TMT bars, steel plates, pipes, beams, and more. We deliver quality and reliability for every project.
           </HeroP>
@@ -95,8 +95,7 @@ const HomePage = () => {
               href={getWhatsAppLink()}
               target="_blank"
               rel="noopener noreferrer"
-              big="true"
-              fontBig="true"
+              
             >
               Enquire on WhatsApp
             </WhatsAppButton>
@@ -110,7 +109,7 @@ const HomePage = () => {
       {/* ABOUT US SECTION */}
       <IntroSection>
         <div className="container">
-          <h2>About Archana Traders</h2>
+          <h2>About Us</h2>
           <AboutGrid>
             <AboutImage src={officeImg} alt="archana Traders Office" />
             <AboutText>
@@ -231,7 +230,7 @@ const HomePage = () => {
         <img
           src={warehouseImg}
           alt="Warehouse"
-          style={{ maxWidth: '900px', width: '100%', borderRadius: '12px', boxShadow: '0 4px 24px rgba(0,0,0,0.08)' }}
+          style={{ maxWidth: '600px', width: '90%', borderRadius: '12px', boxShadow: '0 4px 24px rgba(0,0,0,0.08)' }}
         />
       </div>
 

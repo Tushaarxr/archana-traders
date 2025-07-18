@@ -5,7 +5,7 @@ import {
   Nav,
   NavContainer,
   LogoContainer,
-  Logo,
+  LogoImage,
   NavMenu,
   NavItem,
   MobileIcon,
@@ -15,20 +15,24 @@ import {
   CenteredSearchContainer,
   SearchSuggestions,
   SuggestionItem,
-  ChevronDownIcon
+  ChevronDownIcon,
+  SearchToggleButton,
+  MobileSearchContainer,
 } from './NavbarElements';
 
 import { steelCatalog } from '../../data/products';
+import logo from '../../assets/logos/AT Main Logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [scrollNav, setScrollNav] = useState(false);
+  // const [scrollNav, setScrollNav] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
   const [suggestions, setSuggestions] = useState([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [selectedSuggestion, setSelectedSuggestion] = useState(-1);
-  
+  const [showSearch, setShowSearch] = useState(false);
+
   const location = useLocation();
   const navigate = useNavigate();
   const dropdownRef = useRef();
@@ -53,6 +57,14 @@ const Navbar = () => {
     });
     return products;
   };
+  const toggleSearch = () => {
+    setShowSearch(!showSearch);
+    if (showSearch) {
+      setSearchTerm('');
+      setShowSuggestions(false);
+      setSelectedSuggestion(-1);
+    }
+  };
 
   const allProducts = getAllProducts();
 
@@ -60,12 +72,12 @@ const Navbar = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   // Sticky navbar effect
-  const changeNav = () => setScrollNav(window.scrollY >= 80);
+  // const changeNav = () => setScrollNav(window.scrollY >= 80);
 
-  useEffect(() => {
-    window.addEventListener('scroll', changeNav);
-    return () => window.removeEventListener('scroll', changeNav);
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener('scroll', changeNav);
+  //   return () => window.removeEventListener('scroll', changeNav);
+  // }, []);
 
   // Close mobile menu on link click
   const closeMenu = () => isOpen && setIsOpen(false);
@@ -84,7 +96,7 @@ const Navbar = () => {
         setSelectedSuggestion(-1);
       }
     };
-    
+
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, [dropdownOpen, showSuggestions]);
@@ -93,7 +105,7 @@ const Navbar = () => {
   const handleSearchChange = (e) => {
     const value = e.target.value;
     setSearchTerm(value);
-    
+
     if (value.trim().length > 0) {
       const filteredSuggestions = allProducts.filter(product =>
         product.name.toLowerCase().includes(value.toLowerCase()) ||
@@ -101,7 +113,7 @@ const Navbar = () => {
         product.category.toLowerCase().includes(value.toLowerCase()) ||
         product.subcategory.toLowerCase().includes(value.toLowerCase())
       ).slice(0, 8); // Limit to 8 suggestions
-      
+
       setSuggestions(filteredSuggestions);
       setShowSuggestions(true);
       setSelectedSuggestion(-1);
@@ -119,7 +131,7 @@ const Navbar = () => {
     switch (e.key) {
       case 'ArrowDown':
         e.preventDefault();
-        setSelectedSuggestion(prev => 
+        setSelectedSuggestion(prev =>
           prev < suggestions.length - 1 ? prev + 1 : prev
         );
         break;
@@ -175,10 +187,10 @@ const Navbar = () => {
   };
 
   return (
-    <Nav scrollNav={scrollNav}>
+    <Nav>
       <NavContainer>
         <LogoContainer to="/">
-          <Logo>Archana Traders</Logo>
+          <LogoImage src={logo} alt="Achana Traders" />
         </LogoContainer>
 
         <CenteredSearchContainer ref={searchRef} onSubmit={handleSearch}>
@@ -193,12 +205,12 @@ const Navbar = () => {
             autoComplete="off"
           />
           <button type="submit" aria-label="Search">
-            <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <circle cx="9" cy="9" r="7" />
-              <line x1="16" y1="16" x2="13.5" y2="13.5" />
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="11" cy="11" r="8" fill="rgba(255,255,255,0.2)" stroke="currentColor" strokeWidth="2" />
+              <path d="m21 21-4.35-4.35" strokeWidth="3" />
             </svg>
           </button>
-          
+
           {showSuggestions && suggestions.length > 0 && (
             <SearchSuggestions ref={suggestionsRef}>
               {suggestions.map((suggestion, index) => (
@@ -219,6 +231,56 @@ const Navbar = () => {
           )}
         </CenteredSearchContainer>
 
+        {/* Mobile Search Toggle Button */}
+        <SearchToggleButton onClick={toggleSearch} active={showSearch}>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="11" cy="11" r="8" fill="rgba(255,255,255,0.2)" stroke="currentColor" strokeWidth="2" />
+            <path d="m21 21-4.35-4.35" strokeWidth="3" />
+          </svg>
+        </SearchToggleButton>
+
+        {/* Mobile Search Container - Only shows when toggled */}
+        {showSearch && (
+          <MobileSearchContainer ref={searchRef} onSubmit={handleSearch}>
+            <input
+              type="text"
+              placeholder="Search products..."
+              value={searchTerm}
+              onChange={handleSearchChange}
+              onFocus={handleSearchFocus}
+              onKeyDown={handleKeyDown}
+              aria-label="Search products"
+              autoComplete="off"
+              autoFocus
+            />
+            <button type="submit" aria-label="Search">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="11" cy="11" r="8" fill="rgba(255,255,255,0.2)" stroke="currentColor" strokeWidth="2" />
+                <path d="m21 21-4.35-4.35" strokeWidth="3" />
+              </svg>
+            </button>
+
+            {showSuggestions && suggestions.length > 0 && (
+              <SearchSuggestions ref={suggestionsRef}>
+                {suggestions.map((suggestion, index) => (
+                  <SuggestionItem
+                    key={index}
+                    selected={selectedSuggestion === index}
+                    onClick={() => handleSuggestionClick(suggestion)}
+                  >
+                    <div className="suggestion-main">
+                      <strong>{suggestion.name}</strong>
+                    </div>
+                    <div className="suggestion-category">
+                      {suggestion.category} → {suggestion.subcategory}
+                    </div>
+                  </SuggestionItem>
+                ))}
+              </SearchSuggestions>
+            )}
+          </MobileSearchContainer>
+        )}
+
         <MobileIcon onClick={toggle}>
           {isOpen ? <span>✕</span> : <span>☰</span>}
         </MobileIcon>
@@ -231,6 +293,16 @@ const Navbar = () => {
               onClick={closeMenu}
             >
               Home
+            </NavLinks>
+          </NavItem>
+
+          <NavItem>
+            <NavLinks
+              to="/about"
+              active={(location.pathname === '/about').toString()}
+              onClick={closeMenu}
+            >
+              About
             </NavLinks>
           </NavItem>
 

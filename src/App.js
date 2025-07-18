@@ -22,6 +22,8 @@ const ProductSubCategoryPage = lazy(() => import('./pages/ProductSubCategoryPage
 const ProductDetailPage = lazy(() => import('./pages/ProductDetailPage'));
 const ContactPage = lazy(() => import('./pages/ContactPage'));
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
+const AboutPage = lazy(() => import('./pages/AboutPage'));
+
 
 function App() {
   return (
@@ -39,6 +41,7 @@ function App() {
               <Route path="/products/:categorySlug/:subCategorySlug" element={<ProductSubCategoryPage />} />
               <Route path="/products/:categorySlug/:subCategorySlug/:productSlug" element={<ProductDetailPage />} />
               <Route path="/contact" element={<ContactPage />} />
+              <Route path="/about" element={<AboutPage />} />
               <Route path="*" element={<NotFoundPage />} />
             </Routes>
           </Suspense>
