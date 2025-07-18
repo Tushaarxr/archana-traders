@@ -42,7 +42,7 @@ const AboutPage = () => {
     <>
       <SEO
         title="About Us"
-        description="Learn about Achana Traders - 27+ years of excellence in steel trading, serving construction and industrial sectors across India."
+        description="Learn about Archana Traders - 27+ years of excellence in steel trading, serving construction and industrial sectors across India."
       />
       
       <AboutContainer>
@@ -72,7 +72,7 @@ const AboutPage = () => {
             <CompanyOverviewSection>
               <OverviewContent>
                 <p>
-                  Achana Traders has served the steel industry for over 27 years, overcoming challenges and 
+                  Archana Traders has served the steel industry for over 27 years, overcoming challenges and 
                   establishing a reputation for reliability and trust. We are a leading stockist and supplier 
                   of TMT bars, beams, rods, plates, pipes, channels, and more.
                 </p>
@@ -82,13 +82,13 @@ const AboutPage = () => {
                   pride ourselves on responsive customer service and efficient supply chain management.
                 </p>
                 <p>
-                  Headquartered in Raigarh, Achana Traders is committed to supporting your projects with 
+                  Headquartered in Raigarh, Archana Traders is committed to supporting your projects with 
                   the best steel solutions.
                 </p>
               </OverviewContent>
               
               <OverviewImageContainer>
-                <OverviewImage src={facilityImg} alt="Achana Traders Facility" />
+                <OverviewImage src={facilityImg} alt="Archana Traders Facility" />
                 <ImageOverlay>
                   {/* <h4>Our Modern Facility</h4>
                   <p>State-of-the-art warehouse and processing center</p> */}
@@ -107,7 +107,7 @@ const AboutPage = () => {
                 <MVVIcon className="mission" />
                 <MVVTitle>Our Mission</MVVTitle>
                 <MVVText>
-                  At Achana Traders, our mission is to provide high-quality steel solutions that exceed 
+                  At Archana Traders, our mission is to provide high-quality steel solutions that exceed 
                   customer expectations. We focus on delivering strong, versatile, and innovative products 
                   for all types of construction needs. Our goal is to ensure durability and long-lasting 
                   performance in every structure built with our steel.
@@ -184,7 +184,7 @@ const AboutPage = () => {
         {/* Why Choose Us Section */}
         <Section>
           <SectionContainer>
-            <SectionTitle>Why Choose Achana Traders</SectionTitle>
+            <SectionTitle>Why Choose Archana Traders</SectionTitle>
             <WhyGrid>
               <WhyCard>
                 <WhyIcon>🌟</WhyIcon>
@@ -225,7 +225,7 @@ const AboutPage = () => {
             <TestimonialsGrid>
               <TestimonialCard>
                 <TestimonialText>
-                  "Achana Traders has been our go-to steel supplier for the past 5 years. Their TMT bars 
+                  "Archana Traders has been our go-to steel supplier for the past 5 years. Their TMT bars 
                   are of exceptional quality and their delivery is always on time. Highly recommended for 
                   any construction project."
                 </TestimonialText>
@@ -240,7 +240,7 @@ const AboutPage = () => {
 
               <TestimonialCard>
                 <TestimonialText>
-                  "The quality of steel products from Achana Traders is outstanding. They understand our 
+                  "The quality of steel products from Archana Traders is outstanding. They understand our 
                   requirements and always deliver the right materials at competitive prices. Great service!"
                 </TestimonialText>
                 <TestimonialAuthor>
@@ -254,7 +254,7 @@ const AboutPage = () => {
 
               <TestimonialCard>
                 <TestimonialText>
-                  "Professional service and reliable products. Achana Traders has helped us complete multiple 
+                  "Professional service and reliable products. Archana Traders has helped us complete multiple 
                   projects successfully. Their team is knowledgeable and always ready to help."
                 </TestimonialText>
                 <TestimonialAuthor>

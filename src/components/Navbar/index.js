@@ -190,7 +190,7 @@ const Navbar = () => {
     <Nav>
       <NavContainer>
         <LogoContainer to="/">
-          <LogoImage src={logo} alt="Achana Traders" />
+          <LogoImage src={logo} alt="Archana Traders" />
         </LogoContainer>
 
         <CenteredSearchContainer ref={searchRef} onSubmit={handleSearch}>

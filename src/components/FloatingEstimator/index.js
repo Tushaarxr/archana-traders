@@ -338,8 +338,8 @@ const FloatingEstimator = () => {
         formDataToSend.append("product", formData.product);
         formDataToSend.append("quantity", `${formData.quantity} Tons`);
         formDataToSend.append("access_key", "7fea1f32-4675-4164-abf9-41a5971baef7");
-        formDataToSend.append("subject", "Free Estimator Request - Achana Traders");
-        formDataToSend.append("from_name", "Achana Traders - Free Estimator");
+        formDataToSend.append("subject", "Free Estimator Request - Archana Traders");
+        formDataToSend.append("from_name", "Archana Traders - Free Estimator");
         formDataToSend.append("replyto", formData.email);
 
         try {
